@@ -1,270 +1,69 @@
-<!doctype html>
-<html lang="en">
-<head>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-58NQ8LPN');</script>
-<!-- End Google Tag Manager -->
- <meta charset="utf-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1" />
- <title>From Payslip to Lohnausweis: An AI Routine for Payroll and Social Insurance</title>
- <meta name="description" id="meta-description" content="Run payroll, social insurance and the annual Lohnausweis with care — a small AI routine that gathers the changes, checks the AHV, BVG and source-tax rules and drafts the message to your payroll provider." />
- <meta property="og:title" id="og-title" content="From Payslip to Lohnausweis: An AI Routine for Payroll and Social Insurance" />
- <meta property="og:description" id="og-description" content="Run payroll, social insurance and the annual Lohnausweis with care — a small AI routine that gathers the changes, checks the AHV, BVG and source-tax rules and drafts the message to your payroll provider." />
- <meta property="og:type" content="article" />
- <meta property="og:url" content="https://strongwinds.ch/blog/posts/payroll-lohnausweis-routine.html" />
- <link rel="canonical" href="https://strongwinds.ch/blog/posts/payroll-lohnausweis-routine.html" />
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
- <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg" />
- <link rel="stylesheet" href="../../styles.css?v=26" />
- <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg" />
- <link rel="stylesheet" href="../blog.css?v=10" />
- <script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@graph": [
- {
- "@type": "Article",
- "headline": "From Payslip to Lohnausweis: An AI Routine for Payroll and Social Insurance",
- "description": "Run payroll, social insurance and the annual Lohnausweis with care — a small AI routine that gathers the changes, checks the AHV, BVG and source-tax rules and drafts the message to your payroll provider.",
- "datePublished": "2026-08-23",
- "dateModified": "2026-08-23",
- "author": {
- "@type": "Person",
- "name": "Christian"
- },
- "publisher": {
- "@type": "Organization",
- "name": "strongwinds.ch",
- "url": "https://strongwinds.ch"
- },
- "mainEntityOfPage": "https://strongwinds.ch/blog/posts/payroll-lohnausweis-routine.html",
- "inLanguage": "en"
- },
- {
- "@type": "BreadcrumbList",
- "itemListElement": [
- {
- "@type": "ListItem",
- "position": 1,
- "name": "Home",
- "item": "https://strongwinds.ch/"
- },
- {
- "@type": "ListItem",
- "position": 2,
- "name": "Blog",
- "item": "https://strongwinds.ch/blog/"
- },
- {
- "@type": "ListItem",
- "position": 3,
- "name": "From Payslip to Lohnausweis: An AI Routine for Payroll and Social Insurance",
- "item": "https://strongwinds.ch/blog/posts/payroll-lohnausweis-routine.html"
- }
- ]
- }
- ]
-}
- </script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HHTMBHS0F3"></script>
-<script>
- window.dataLayer = window.dataLayer || [];
- function gtag(){dataLayer.push(arguments);}
- gtag('js', new Date());
-
- gtag('config', 'G-HHTMBHS0F3');
-</script>
-</head>
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58NQ8LPN"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
- <div class="topbar">
- <div class="container topbar-inner">
- <a class="back-home" href="../../">← strongwinds.ch</a><a class="topbar-home" href="../../"><span data-i18n-html="swiss" style="display:inline-flex;align-items:center;gap:6px;white-space:nowrap;"><img src='../../assets/ch-flag.svg' alt='Swiss flag' style='width:18px;height:18px;flex:0 0 auto;'>Made for Swiss self-employed & SMEs</span></a>
- <div class="lang-switch" role="group" aria-label="Language"><button type="button" class="lang-dd-btn" aria-haspopup="true" aria-expanded="false"><span class="lang-dd-current">EN</span><span class="lang-dd-caret">▾</span></button><div class="lang-dd-menu" role="menu"><button type="button" role="menuitem" data-lang="en" class="lang-opt">English <span class="tick">✓</span></button><button type="button" role="menuitem" data-lang="de" class="lang-opt">Deutsch</button><button type="button" role="menuitem" data-lang="fr" class="lang-opt">Français</button><button type="button" role="menuitem" data-lang="it" class="lang-opt">Italiano</button></div></div></div>
-
- </div>
- </div>
-
- <header class="nav">
- <div class="container nav-inner">
- <a class="brand" href="../../" aria-label="strongwinds">
- <span class="brand-glyph" aria-hidden="true"><img src="../../assets/logo-mark.svg" alt=""></span>
- <span class="brand-word"><b>strongwinds</b><strong>.ch</strong></span>
- </a>
- <nav>
- <a href="../../#solutions" data-i18n="nav_solutions">Solutions</a>
- <a href="../../#how" data-i18n="nav_how">How we work</a>
- <a href="../../#about" data-i18n="nav_about">About</a>
- <a href="../" style="color:var(--teal); font-weight:700;" data-i18n="nav_blog">Blog</a>
- </nav>
- <div class="nav-actions">
- <a class="nav-cta" href="../../#contact"><span data-i18n="nav_cta">Book a free 30-min call</span> <span>→</span></a>
- </div>
- </div>
- </header>
-
- <main>
- <article>
- <section class="post-header">
- <div class="container narrow">
- <a href="../" class="text-link" style="color: var(--muted); margin-bottom: 20px; display: inline-block;"><span data-i18n="back">← Back to Blog</span></a>
- <div class="blog-meta" style="margin-bottom: 0;">August 23, 2026 — 5 min read</div>
- <h1><span data-i18n="post_title">From Payslip to Lohnausweis: An AI Routine for Payroll and Social Insurance</span></h1>
- <div class="chip-row" style="padding-top: 0;">
- <a href="../?tag=payroll" data-i18n="tag_payroll">Payroll</a>
- <a href="../?tag=social_insurance" data-i18n="tag_social_insurance">Social Insurance</a>
- <a href="../?tag=deadlines" data-i18n="tag_deadlines">Deadlines</a>
- </div>
- </div>
- </section>
-
- <section class="post-content">
- <div class="container narrow post-body">
- <div data-i18n-html="post_content">
-<p class="hero-lead" style="margin-top: 0;">The moment a small Swiss office hires its first employee, a quiet pile of paperwork appears: AHV, BVG, accident insurance, source tax — and once a year, the Lohnausweis. None of it is intellectually hard, but all of it is deadline-driven and easy to get slightly wrong.</p>
-
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>From Payslip to Lohnausweis: An AI Routine for Payroll and Social…</title><meta name="description" content="Run payroll, social insurance and the annual Lohnausweis with care — a small AI routine that gathers the changes, checks the AHV, BVG and source-tax rules and drafts…"><meta name="theme-color" content="#6750ce"><link rel="canonical" href="https://strongwinds.ch/blog/posts/payroll-lohnausweis-routine/"><link rel="alternate" hreflang="en" href="https://strongwinds.ch/blog/posts/payroll-lohnausweis-routine/"><link rel="alternate" hreflang="de" href="https://strongwinds.ch/de/blog/posts/payroll-lohnausweis-routine/"><link rel="alternate" hreflang="fr" href="https://strongwinds.ch/fr/blog/posts/payroll-lohnausweis-routine/"><link rel="alternate" hreflang="it" href="https://strongwinds.ch/it/blog/posts/payroll-lohnausweis-routine/"><link rel="alternate" hreflang="x-default" href="https://strongwinds.ch/blog/posts/payroll-lohnausweis-routine/"><meta property="og:type" content="article"><meta property="og:site_name" content="strongwinds.ch"><meta property="og:title" content="From Payslip to Lohnausweis: An AI Routine for Payroll and Social…"><meta property="og:description" content="Run payroll, social insurance and the annual Lohnausweis with care — a small AI routine that gathers the changes, checks the AHV, BVG and source-tax rules and drafts…"><meta property="og:url" content="https://strongwinds.ch/blog/posts/payroll-lohnausweis-routine/"><meta property="og:locale" content="en_GB"><meta property="og:image" content="https://strongwinds.ch/assets/social-card.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="From Payslip to Lohnausweis: An AI Routine for Payroll and Social…"><meta name="twitter:description" content="Run payroll, social insurance and the annual Lohnausweis with care — a small AI routine that gathers the changes, checks the AHV, BVG and source-tax rules and drafts…"><meta name="twitter:image" content="https://strongwinds.ch/assets/social-card.png"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64 128x128 256x256"><link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "ProfessionalService", "@id": "https://strongwinds.ch/#business", "name": "strongwinds.ch", "url": "https://strongwinds.ch/", "logo": "https://strongwinds.ch/assets/wordmark.svg", "email": "christian@strongwinds.ch", "telephone": "+41 76 255 82 77", "areaServed": {"@type": "Country", "name": "Switzerland"}, "address": {"@type": "PostalAddress", "addressLocality": "Corralejo", "addressCountry": "ES"}, "founder": {"@id": "https://strongwinds.ch/#christian"}}, {"@type": "Person", "@id": "https://strongwinds.ch/#christian", "name": "Christian Nussbaumer", "url": "https://strongwinds.ch/about/", "image": "https://strongwinds.ch/assets/christian.jpg", "sameAs": ["https://www.linkedin.com/in/nussbi"]}, {"@type": "WebSite", "@id": "https://strongwinds.ch/#website", "url": "https://strongwinds.ch/", "name": "strongwinds.ch"}, {"@type": "BlogPosting", "@id": "https://strongwinds.ch/blog/posts/payroll-lohnausweis-routine/#page", "url": "https://strongwinds.ch/blog/posts/payroll-lohnausweis-routine/", "name": "From Payslip to Lohnausweis: An AI Routine for Payroll and Social…", "description": "Run payroll, social insurance and the annual Lohnausweis with care — a small AI routine that gathers the changes, checks the AHV, BVG and source-tax rules and drafts…", "inLanguage": "en", "isPartOf": {"@id": "https://strongwinds.ch/#website"}, "headline": "From Payslip to Lohnausweis: An AI Routine for Payroll and Social Insurance", "datePublished": "2026-08-23", "author": {"@id": "https://strongwinds.ch/#christian"}, "publisher": {"@id": "https://strongwinds.ch/#business"}, "mainEntityOfPage": "https://strongwinds.ch/blog/posts/payroll-lohnausweis-routine/", "image": "https://strongwinds.ch/assets/social-card.png"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://strongwinds.ch/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://strongwinds.ch/blog/"}, {"@type": "ListItem", "position": 3, "name": "From Payslip to Lohnausweis: An AI Routine for Payroll and Social Insurance", "item": "https://strongwinds.ch/blog/posts/payroll-lohnausweis-routine/"}]}]}</script><script defer src="/site.js"></script></head><body><a class="skip-link" href="#main">Skip to content</a><header class="topbar"><div class="topbar-inner"><a class="brand" href="/"><img src="/assets/logo-mark.svg" alt="" width="38" height="38"><span>strongwinds<span class="dot">.ch</span></span></a><nav class="nav" id="main-nav" aria-label="Navigation"><a href="/#solutions">Solutions</a><a href="/ai-agents/">AI agents</a><a href="/about/">About me</a><a href="/blog/">Blog</a><a href="/projects/">Projects</a></nav><button class="nav-toggle" type="button" aria-label="Navigation" aria-expanded="false" aria-controls="main-nav">☰</button><nav class="language-links" aria-label="Language"><a href="/blog/posts/payroll-lohnausweis-routine/" lang="en" hreflang="en" aria-label="EN — English" aria-current="true">EN</a><a href="/de/blog/posts/payroll-lohnausweis-routine/" lang="de" hreflang="de" aria-label="DE — Deutsch">DE</a><a href="/fr/blog/posts/payroll-lohnausweis-routine/" lang="fr" hreflang="fr" aria-label="FR — Français">FR</a><a href="/it/blog/posts/payroll-lohnausweis-routine/" lang="it" hreflang="it" aria-label="IT — Italiano">IT</a></nav><a class="button header-contact" href="/#contact">Let&#x27;s talk ↗</a></div></header><main id="main">
+<article>
+<section class="post-header">
+<div class="container narrow">
+<a class="text-link" href="/blog/"><span>← Back to Blog</span></a>
+<div class="blog-meta">August 23, 2026 — 5 min read</div>
+<h1><span>From Payslip to Lohnausweis: An AI Routine for Payroll and Social Insurance</span></h1>
+<div class="chip-row"><a href="/blog/?tag=payroll">Payroll</a><a href="/blog/?tag=social_insurance">Social Insurance</a><a href="/blog/?tag=deadlines">Deadlines</a></div>
+</div>
+</section>
+<section class="post-content">
+<div class="container narrow post-body">
+<div><p class="hero-lead">The moment a small Swiss office hires its first employee, a quiet pile of paperwork appears: AHV, BVG, accident insurance, source tax — and once a year, the Lohnausweis. None of it is intellectually hard, but all of it is deadline-driven and easy to get slightly wrong.</p>
 <p>The truth is that payroll is not a mystery — it is a short list of repeating steps with a few fiddly details. And the fiddly details are exactly what AI handles well: gathering the month's changes, checking them against the rules, and drafting the message that goes to your payroll provider or accountant.</p>
-
 <h2>Why payroll quietly eats your time</h2>
-
 <p>Payroll rarely fails loudly. It fails quietly, through small omissions that surface weeks later as a correction, a phone call or a penalty notice:</p>
-
 <ul>
 <li><strong>Many institutions.</strong> One employee triggers obligations towards AHV/IV/EO, the pension fund (BVG), accident insurance (UVG/NBU) and, for cross-border or foreign staff, source tax.</li>
 <li><strong>Many deadlines.</strong> Contributions are due monthly or quarterly, and the annual statements follow their own calendar.</li>
 <li><strong>The annual Lohnausweis.</strong> The salary certificate you issue every January has fields that are genuinely easy to fill in wrongly, and a wrong figure lands straight in the employee's tax return.</li>
 </ul>
-
 <h2>What a small office actually has to track</h2>
-
 <p>Strip away the forms and payroll is a short list of facts that change each month:</p>
-
 <ul>
 <li><strong>Changes:</strong> new hires, departures, salary changes, hours, absences, bonuses.</li>
 <li><strong>Insurances:</strong> who is covered by BVG and UVG, and at what salary level.</li>
 <li><strong>Source tax:</strong> whether any employee is taxed at source, and at which rate.</li>
 <li><strong>The salary statements:</strong> the monthly payslip and the annual Lohnausweis.</li>
 </ul>
-
 <h2>An AI routine to run it</h2>
-
 <h3>Step 1 — Keep a master sheet</h3>
-
 <p>Write down your own payroll facts once — the institutions, the contribution accounts, the deadline calendar and the salary levels that trigger BVG and UVG. This is the part that never changes and the part most likely to contain a typo if you look it up fresh every month.</p>
-
 <h3>Step 2 — Collect the month's changes in one note</h3>
-
 <p>Each month, jot the changes in a single short note: who joined, who left, who changed hours, any bonus or absence. Then hand the note and your master sheet to the AI:</p>
-
 <blockquote>You are helping a small Swiss office prepare its monthly payroll. Here is my master sheet: [institutions, accounts, salary levels, deadline calendar]. Here are this month's changes: [list]. Please draft the message to our payroll provider with the changes, and flag anything that affects AHV, BVG, accident insurance or source tax.</blockquote>
-
 <h3>Step 3 — Let the AI draft, you approve</h3>
-
 <p>The AI does not pay anyone and does not transmit anything. It drafts the message and flags what looks off. You read it once, correct what needs correcting, and send it — the same way you would with a careful colleague.</p>
-
 <h2>A second prompt: checking the numbers</h2>
-
 <p>Before you send, run one more pass to catch the kind of mistake that turns into a correction:</p>
-
 <blockquote>Check this payroll message for common Swiss mistakes: is every new hire covered by the right insurances, are the BVG and UVG thresholds respected, is any employee subject to source tax, and are the amounts consistent with last month? List anything that looks wrong or missing.</blockquote>
-
 <h2>The Lohnausweis at year-end</h2>
-
 <p>Every January the same question returns: the salary certificate. The Lohnausweis has a specific field for almost everything — gross salary, contributions, expense allowances, benefits in kind — and each field has its rules.</p>
-
 <p>Here the AI earns its keep as a second pair of eyes. Give it last year's Lohnausweis, the twelve monthly summaries, and the current instructions, and ask it to draft the new certificate field by field, flagging anything that differs from the previous year and anything that needs your decision.</p>
-
 <p>The result is not a finished document you sign blindly. It is a first draft you can review carefully, instead of a blank form at the end of January.</p>
-
 <h2>One honest caveat</h2>
-
 <p>The AI does not calculate contributions, does not file with the institutions, and does not replace your payroll provider or fiduciary. It drafts, checks and reminds — the mechanical parts that consume your time. The final responsibility for the numbers stays with you, exactly as it should.</p>
-
 <h2>The outcome</h2>
-
-<p>One master sheet, one monthly note, two short prompts, and one pass over the year-end certificate. Payroll stops being a monthly dread and becomes a routine you can finish in a quiet half-hour — and the Lohnausweis is ready before the rush, because the draft was already waiting.</p>
+<p>One master sheet, one monthly note, two short prompts, and one pass over the year-end certificate. Payroll stops being a monthly dread and becomes a routine you can finish in a quiet half-hour — and the Lohnausweis is ready before the rush, because the draft was already waiting.</p></div>
+<div class="post-author">
+<div class="post-author-avatar"><a aria-label="facturio.ch" href="https://facturio.ch" rel="noopener noreferrer" target="_blank"><img alt="Christian" decoding="async" height="640" loading="lazy" src="/assets/christian-avatar-v2.jpg" width="640"/></a></div>
+<div class="post-author-info">
+<b><a href="https://facturio.ch" rel="noopener noreferrer" target="_blank">Christian</a></b>
+<span>Founder, strongwinds.ch · Practical AI for Swiss self-employed &amp; SMEs</span>
 </div>
-
- <div class="post-author">
- <div class="post-author-avatar"><a href="https://facturio.ch" target="_blank" rel="noopener" aria-label="facturio.ch"><img src="../../assets/christian-avatar-v2.jpg" alt="Christian"></a></div>
- <div class="post-author-info">
- <b><a href="https://facturio.ch" target="_blank" rel="noopener" style="color: inherit;">Christian</a></b>
- <span data-i18n="author_tag">Founder, strongwinds.ch · Practical AI for Swiss self-employed & SMEs</span>
- </div>
- </div>
- </div>
- </section>
- 
- <aside class="related-posts">
- <div class="container narrow">
- <h2 data-i18n="related_heading">Related posts</h2>
- <ul class="related-list">
- <li><a href="ai-bookkeeping-self-employed.html" data-i18n="rel1_title">AI Bookkeeping for Self-employed: Receipts, Reminders, Booking Suggestions</a></li>
- <li><a href="preparing-tax-return-ai.html" data-i18n="rel2_title">Preparing Your Tax Return: An AI Routine for Self-employed and SMEs</a></li>
- <li><a href="quarterly-vat-statement.html" data-i18n="rel3_title">Filing Your Quarterly VAT: An AI Routine for Self-employed and SMEs</a></li>
- </ul>
- </div>
- </aside>
-  </article>
- </main>
-
- <footer>
- <div class="container footer-inner">
- <a class="footer-brand" href="../../">
- <span class="brand-glyph" aria-hidden="true"><img src="../../assets/logo-mark.svg" alt=""></span>
- <div class="footer-brand-text">
- <b>strongwinds<span>.</span>ch</b>
- <span class="footer-tag" data-i18n="footer_tag">Practical AI for Swiss self-employed & SMEs.</span>
- </div>
- </a>
- <a class="footer-wa" href="https://wa.me/41762558277" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 448 512" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg><span>WhatsApp</span></a><a class="footer-wa" href="https://www.linkedin.com/in/nussbi" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg><span>LinkedIn</span></a><span class="footer-copy" data-i18n="footer_copy">© 2026 strongwinds.ch · Switzerland</span>
- </div>
- </footer>
-
-<script>
-const translations = {"en": {"swiss": "<img src='../../assets/ch-flag.svg' alt='Swiss flag' style='width:18px;height:18px;flex:0 0 auto;'>Made for Swiss self-employed & SMEs", "nav_solutions": "Solutions", "nav_how": "How we work", "nav_about": "About", "nav_blog": "Blog", "nav_cta": "Book a free 30-min call", "back": "← Back to Blog", "footer_tag": "Practical AI for Swiss self-employed & SMEs.", "footer_copy": "© 2026 strongwinds.ch · Switzerland", "author_tag": "Founder, strongwinds.ch · Practical AI for Swiss self-employed & SMEs", "post_title": "From Payslip to Lohnausweis: An AI Routine for Payroll and Social Insurance", "meta_description": "Run payroll, social insurance and the annual Lohnausweis with care — a small AI routine that gathers the changes, checks the AHV, BVG and source-tax rules and drafts the message to your payroll provider.", "og_title": "From Payslip to Lohnausweis: An AI Routine for Payroll and Social Insurance", "og_description": "Run payroll, social insurance and the annual Lohnausweis with care — a small AI routine that gathers the changes, checks the AHV, BVG and source-tax rules and drafts the message to your payroll provider.", "post_content": "<p class=\"hero-lead\" style=\"margin-top: 0;\">The moment a small Swiss office hires its first employee, a quiet pile of paperwork appears: AHV, BVG, accident insurance, source tax — and once a year, the Lohnausweis. None of it is intellectually hard, but all of it is deadline-driven and easy to get slightly wrong.</p>\n\n<p>The truth is that payroll is not a mystery — it is a short list of repeating steps with a few fiddly details. And the fiddly details are exactly what AI handles well: gathering the month's changes, checking them against the rules, and drafting the message that goes to your payroll provider or accountant.</p>\n\n<h2>Why payroll quietly eats your time</h2>\n\n<p>Payroll rarely fails loudly. It fails quietly, through small omissions that surface weeks later as a correction, a phone call or a penalty notice:</p>\n\n<ul>\n<li><strong>Many institutions.</strong> One employee triggers obligations towards AHV/IV/EO, the pension fund (BVG), accident insurance (UVG/NBU) and, for cross-border or foreign staff, source tax.</li>\n<li><strong>Many deadlines.</strong> Contributions are due monthly or quarterly, and the annual statements follow their own calendar.</li>\n<li><strong>The annual Lohnausweis.</strong> The salary certificate you issue every January has fields that are genuinely easy to fill in wrongly, and a wrong figure lands straight in the employee's tax return.</li>\n</ul>\n\n<h2>What a small office actually has to track</h2>\n\n<p>Strip away the forms and payroll is a short list of facts that change each month:</p>\n\n<ul>\n<li><strong>Changes:</strong> new hires, departures, salary changes, hours, absences, bonuses.</li>\n<li><strong>Insurances:</strong> who is covered by BVG and UVG, and at what salary level.</li>\n<li><strong>Source tax:</strong> whether any employee is taxed at source, and at which rate.</li>\n<li><strong>The salary statements:</strong> the monthly payslip and the annual Lohnausweis.</li>\n</ul>\n\n<h2>An AI routine to run it</h2>\n\n<h3>Step 1 — Keep a master sheet</h3>\n\n<p>Write down your own payroll facts once — the institutions, the contribution accounts, the deadline calendar and the salary levels that trigger BVG and UVG. This is the part that never changes and the part most likely to contain a typo if you look it up fresh every month.</p>\n\n<h3>Step 2 — Collect the month's changes in one note</h3>\n\n<p>Each month, jot the changes in a single short note: who joined, who left, who changed hours, any bonus or absence. Then hand the note and your master sheet to the AI:</p>\n\n<blockquote>You are helping a small Swiss office prepare its monthly payroll. Here is my master sheet: [institutions, accounts, salary levels, deadline calendar]. Here are this month's changes: [list]. Please draft the message to our payroll provider with the changes, and flag anything that affects AHV, BVG, accident insurance or source tax.</blockquote>\n\n<h3>Step 3 — Let the AI draft, you approve</h3>\n\n<p>The AI does not pay anyone and does not transmit anything. It drafts the message and flags what looks off. You read it once, correct what needs correcting, and send it — the same way you would with a careful colleague.</p>\n\n<h2>A second prompt: checking the numbers</h2>\n\n<p>Before you send, run one more pass to catch the kind of mistake that turns into a correction:</p>\n\n<blockquote>Check this payroll message for common Swiss mistakes: is every new hire covered by the right insurances, are the BVG and UVG thresholds respected, is any employee subject to source tax, and are the amounts consistent with last month? List anything that looks wrong or missing.</blockquote>\n\n<h2>The Lohnausweis at year-end</h2>\n\n<p>Every January the same question returns: the salary certificate. The Lohnausweis has a specific field for almost everything — gross salary, contributions, expense allowances, benefits in kind — and each field has its rules.</p>\n\n<p>Here the AI earns its keep as a second pair of eyes. Give it last year's Lohnausweis, the twelve monthly summaries, and the current instructions, and ask it to draft the new certificate field by field, flagging anything that differs from the previous year and anything that needs your decision.</p>\n\n<p>The result is not a finished document you sign blindly. It is a first draft you can review carefully, instead of a blank form at the end of January.</p>\n\n<h2>One honest caveat</h2>\n\n<p>The AI does not calculate contributions, does not file with the institutions, and does not replace your payroll provider or fiduciary. It drafts, checks and reminds — the mechanical parts that consume your time. The final responsibility for the numbers stays with you, exactly as it should.</p>\n\n<h2>The outcome</h2>\n\n<p>One master sheet, one monthly note, two short prompts, and one pass over the year-end certificate. Payroll stops being a monthly dread and becomes a routine you can finish in a quiet half-hour — and the Lohnausweis is ready before the rush, because the draft was already waiting.</p>", "tag_payroll": "Payroll", "tag_social_insurance": "Social Insurance", "tag_deadlines": "Deadlines", "related_heading": "Related posts", "rel1_title": "AI Bookkeeping for Self-employed: Receipts, Reminders, Booking Suggestions", "rel2_title": "Preparing Your Tax Return: An AI Routine for Self-employed and SMEs", "rel3_title": "Filing Your Quarterly VAT: An AI Routine for Self-employed and SMEs", "facturio_crosslink": "<p><strong>Related on facturio.ch</strong> &mdash; <a href='https://facturio.ch/blog/ahv-contributions-self-employed/'>AHV Contributions for the Self-Employed: How They Are Calculated</a>: Swiss invoicing &amp; QR-bills, explained step by step.</p>"}, "de": {"swiss": "<img src='../../assets/ch-flag.svg' alt='Swiss flag' style='width:18px;height:18px;flex:0 0 auto;'>Für Selbständige und Schweizer KMU", "nav_solutions": "Lösungen", "nav_how": "So arbeite ich", "nav_about": "Über mich", "nav_blog": "Blog", "nav_cta": "Kostenloses 30-Minuten-Gespräch buchen", "back": "← Zurück zum Blog", "footer_tag": "Pragmatische KI für Schweizer Selbständige und KMU.", "footer_copy": "© 2026 strongwinds.ch · Schweiz", "author_tag": "Gründer, strongwinds.ch · Pragmatische KI für Schweizer Selbständige und KMU", "post_title": "Von der Lohnabrechnung zum Lohnausweis: Eine KI-Routine für Lohn und Sozialversicherungen", "meta_description": "Lohn, Sozialversicherungen und der jährliche Lohnausweis erledigen — eine kleine KI-Routine, die die Änderungen sammelt, die AHV-, BVG- und Quellensteuer-Regeln prüft und die Meldung an deinen Treuhänder formuliert.", "og_title": "Von der Lohnabrechnung zum Lohnausweis: Eine KI-Routine für Lohn und Sozialversicherungen", "og_description": "Lohn, Sozialversicherungen und der jährliche Lohnausweis erledigen — eine kleine KI-Routine, die die Änderungen sammelt, die AHV-, BVG- und Quellensteuer-Regeln prüft und die Meldung an deinen Treuhänder formuliert.", "post_content": "<p class=\"hero-lead\" style=\"margin-top: 0;\">In dem Moment, in dem ein kleines Schweizer Büro die erste Mitarbeiterin anstellt, beginnt ein stiller Papierstapel zu wachsen: AHV, BVG, Unfallversicherung, Quellensteuer — und einmal im Jahr der Lohnausweis. Nichts davon ist geistig schwer, aber alles hängt an Fristen, und kleine Fehler passieren schnell.</p>\n\n<p>Die beruhigende Wahrheit: Lohn ist kein Geheimnis, sondern eine kurze Liste wiederkehrender Schritte mit ein paar fummeligen Details. Und genau diese Details kann KI gut: die Änderungen des Monats sammeln, sie gegen die Regeln prüfen und die Meldung an deinen Treuhänder oder deine Buchhaltung formulieren.</p>\n\n<h2>Warum der Lohn still Zeit frisst</h2>\n\n<p>Lohn scheitert selten laut. Er scheitert still, durch kleine Versäumnisse, die Wochen später als Korrektur, Anruf oder Mahnung wieder auftauchen:</p>\n\n<ul>\n<li><strong>Viele Institutionen.</strong> Eine Mitarbeiterin löst Pflichten gegenüber AHV/IV/EO, der Pensionskasse (BVG) und der Unfallversicherung (UVG/NBU) aus — bei Grenzgängerinnen oder ausländischen Angestellten zusätzlich die Quellensteuer.</li>\n<li><strong>Viele Fristen.</strong> Die Beiträge sind monatlich oder quartalsweise fällig, und die Jahresmeldungen folgen ihrem eigenen Kalender.</li>\n<li><strong>Der jährliche Lohnausweis.</strong> Der Lohnausweis, den du jeden Januar ausstellst, hat Felder, die man wirklich leicht falsch ausfüllt — und eine falsche Zahl landet direkt in der Steuererklärung der Mitarbeiterin.</li>\n</ul>\n\n<h2>Was ein kleines Büro wirklich nachführen muss</h2>\n\n<p>Nimm die Formulare weg, und der Lohn ist eine kurze Liste von Fakten, die sich jeden Monat ändern:</p>\n\n<ul>\n<li><strong>Änderungen:</strong> Eintritte, Austritte, Lohnänderungen, Stunden, Absenzen, Boni.</li>\n<li><strong>Versicherungen:</strong> wer unter BVG und UVG fällt und ab welchem Lohn.</li>\n<li><strong>Quellensteuer:</strong> ob jemand quellensteuerpflichtig ist und zu welchem Satz.</li>\n<li><strong>Die Lohnbelege:</strong> die monatliche Lohnabrechnung und der jährliche Lohnausweis.</li>\n</ul>\n\n<h2>Eine KI-Routine dafür</h2>\n\n<h3>Schritt 1 — Ein Stammblatt führen</h3>\n\n<p>Halte deine Lohndaten einmal fest — die Institutionen, die Beitragskonten, den Fristenkalender und die Lohnhöhen, ab denen BVG und UVG greifen. Das ist der Teil, der sich nie ändert und in dem sich am ehesten ein Tippfehler einschleicht, wenn du ihn jeden Monat neu zusammensuchst.</p>\n\n<h3>Schritt 2 — Die Änderungen des Monats in einer Notiz sammeln</h3>\n\n<p>Notiere jeden Monat die Änderungen in einer einzigen kurzen Notiz: wer kam, wer ging, wer die Stunden änderte, welcher Bonus oder welche Absenz anfiel. Dann gib die Notiz und dein Stammblatt der KI:</p>\n\n<blockquote>Du hilfst einem kleinen Schweizer Büro bei der monatlichen Lohnabrechnung. Hier ist mein Stammblatt: [Institutionen, Konten, Lohnhöhen, Fristenkalender]. Hier sind die Änderungen dieses Monats: [Liste]. Formuliere die Meldung an unseren Treuhänder mit den Änderungen und weise auf alles hin, was AHV, BVG, Unfallversicherung oder Quellensteuer betrifft.</blockquote>\n\n<h3>Schritt 3 — Die KI entwirft, du gibst frei</h3>\n\n<p>Die KI zahlt niemanden und übermittelt nichts. Sie formuliert die Meldung und weist auf das hin, was komisch aussieht. Du liest sie einmal durch, korrigierst, was zu korrigieren ist, und schickst sie ab — wie bei einer sorgfältigen Kollegin.</p>\n\n<h2>Ein zweiter Prompt: die Zahlen prüfen</h2>\n\n<p>Bevor du abschickst, lass die KI noch einmal nach genau den Fehlern suchen, die sonst als Korrektur zurückkommen:</p>\n\n<blockquote>Prüfe diese Lohnmeldung auf typische Schweizer Fehler: Ist jede neue Mitarbeiterin richtig versichert, sind die BVG- und UVG-Grenzen eingehalten, ist jemand quellensteuerpflichtig, und stimmen die Beträge mit dem Vormonat überein? Liste alles auf, was falsch aussieht oder fehlt.</blockquote>\n\n<h2>Der Lohnausweis zum Jahresende</h2>\n\n<p>Jeden Januar kommt dieselbe Frage zurück: der Lohnausweis. Für fast alles hat er ein eigenes Feld — Bruttolohn, Beiträge, Spesen, Naturalleistungen — und jedes Feld hat seine Regeln.</p>\n\n<p>Hier zahlt sich die KI als zweites Augenpaar aus. Gib ihr den Lohnausweis des Vorjahres, die zwölf Monatszusammenfassungen und die aktuellen Weisungen, und lass sie den neuen Lohnausweis Feld für Feld entwerfen — mit Hinweisen auf alles, was vom Vorjahr abweicht und was deine Entscheidung braucht.</p>\n\n<p>Das Ergebnis ist kein fertiges Dokument, das du blind unterschreibst. Es ist ein erster Entwurf, den du prüfen kannst — statt eines leeren Formulars Ende Januar.</p>\n\n<h2>Ein ehrlicher Vorbehalt</h2>\n\n<p>Die KI berechnet keine Beiträge, meldet nichts bei den Institutionen und ersetzt weder dein Lohnbüro noch deinen Treuhänder. Sie entwirft, prüft und erinnert — die mechanischen Teile, die deine Zeit fressen. Die Verantwortung für die Zahlen bleibt bei dir, genau so, wie es sein soll.</p>\n\n<h2>Das Ergebnis</h2>\n\n<p>Ein Stammblatt, eine monatliche Notiz, zwei kurze Prompts und ein Durchgang über den Lohnausweis. Aus dem monatlichen Lohn-Stress wird eine Routine, die du in einer halben Stunde erledigst — und der Lohnausweis ist vor dem Ansturm fertig, weil der Entwurf schon bereitlag.</p>", "tag_payroll": "Lohnabrechnung", "tag_social_insurance": "Sozialversicherungen", "tag_deadlines": "Fristen", "related_heading": "Weiterführend", "rel1_title": "KI-Buchhaltung für Selbständige: Belege, Mahnungen, Buchungsvorschläge", "rel2_title": "Die Steuererklärung vorbereiten: Eine KI-Routine für Selbständige und KMU", "rel3_title": "Die Mehrwertsteuer-Abrechnung: Eine KI-Routine für Selbständige und KMU", "facturio_crosslink": "<p><strong>Verwandtes auf facturio.ch</strong> &mdash; <a href='https://facturio.ch/blog/ahv-contributions-self-employed/'>AHV Contributions for the Self-Employed: How They Are Calculated</a>: Schweizer Rechnungen &amp; QR-Rechnungen, Schritt f&uuml;r Schritt erkl&auml;rt.</p>"}, "fr": {"swiss": "<img src='../../assets/ch-flag.svg' alt='Swiss flag' style='width:18px;height:18px;flex:0 0 auto;'>Conçu pour les indépendants et les PME suisses", "nav_solutions": "Solutions", "nav_how": "Comment nous travaillons", "nav_about": "À propos", "nav_blog": "Blog", "nav_cta": "Réserver un appel gratuit de 30 minutes", "back": "← Retour au blog", "footer_tag": "Une IA pragmatique pour les indépendants et les PME suisses.", "footer_copy": "© 2026 strongwinds.ch · Suisse", "author_tag": "Fondateur, strongwinds.ch · Une IA pragmatique pour les indépendants et les PME suisses", "post_title": "Du décompte de salaire au certificat de salaire: une routine IA pour la paie et les assurances sociales", "meta_description": "Gère la paie, les assurances sociales et le certificat de salaire annuel sans stress — une petite routine IA qui rassemble les changements, vérifie les règles AVS, LPP et de l’impôt à la source et rédige le message pour ton prestataire de paie.", "og_title": "Du décompte de salaire au certificat de salaire: une routine IA pour la paie et les assurances sociales", "og_description": "Gère la paie, les assurances sociales et le certificat de salaire annuel sans stress — une petite routine IA qui rassemble les changements, vérifie les règles AVS, LPP et de l’impôt à la source et rédige le message pour ton prestataire de paie.", "post_content": "<p class=\"hero-lead\" style=\"margin-top: 0;\">Dès qu'un petit bureau suisse engage sa première collaboratrice, une pile discrète de paperasse apparaît: AVS, LPP, assurance-accidents, impôt à la source — et une fois par an, le certificat de salaire. Rien de tout cela n'est intellectuellement difficile, mais tout est soumis à des échéances, et les petites erreurs arrivent vite.</p>\n\n<p>La vérité rassurante, c'est que la paie n'est pas un mystère: c'est une courte liste d'étapes qui se répètent, avec quelques détails minutieux. Et ces détails, c'est exactement ce que l'IA fait bien: rassembler les changements du mois, les vérifier par rapport aux règles, et rédiger le message qui part chez ton prestataire de paie ou ta fiduciaire.</p>\n\n<h2>Pourquoi la paie grignote discrètement ton temps</h2>\n\n<p>La paie échoue rarement bruyamment. Elle échoue discrètement, par de petits oublis qui refont surface des semaines plus tard sous forme de correction, d'appel ou de rappel:</p>\n\n<ul>\n<li><strong>Beaucoup d'institutions.</strong> Une collaboratrice déclenche des obligations envers l'AVS/AI/APG, la caisse de pension (LPP) et l'assurance-accidents (LAA/ANP) — et, pour les frontaliers ou le personnel étranger, l'impôt à la source.</li>\n<li><strong>Beaucoup d'échéances.</strong> Les cotisations sont dues chaque mois ou chaque trimestre, et les décomptes annuels suivent leur propre calendrier.</li>\n<li><strong>Le certificat de salaire annuel.</strong> Le certificat que tu établis chaque janvier a des champs vraiment faciles à mal remplir — et un chiffre faux atterrit directement dans la déclaration d'impôts de la collaboratrice.</li>\n</ul>\n\n<h2>Ce qu'un petit bureau doit vraiment suivre</h2>\n\n<p>Enlève les formulaires et la paie se résume à une courte liste de faits qui changent chaque mois:</p>\n\n<ul>\n<li><strong>Les changements:</strong> arrivées, départs, hausses de salaire, heures, absences, primes.</li>\n<li><strong>Les assurances:</strong> qui est couvert par la LPP et la LAA, et à partir de quel salaire.</li>\n<li><strong>L'impôt à la source:</strong> si une personne y est soumise et à quel taux.</li>\n<li><strong>Les décomptes:</strong> le décompte de salaire mensuel et le certificat de salaire annuel.</li>\n</ul>\n\n<h2>Une routine IA pour s'en occuper</h2>\n\n<h3>Étape 1 — Tenir une fiche de référence</h3>\n\n<p>Note une fois pour toutes tes données de paie — les institutions, les comptes de cotisation, le calendrier des échéances et les seuils de salaire qui déclenchent la LPP et la LAA. C'est la partie qui ne change jamais et celle où une coquille se glisse le plus vite quand tu la recomposes chaque mois.</p>\n\n<h3>Étape 2 — Rassembler les changements du mois dans une note</h3>\n\n<p>Chaque mois, note les changements dans une seule petite note: qui est arrivé, qui est parti, qui a changé d'heures, quelle prime ou quelle absence est tombée. Puis donne la note et ta fiche de référence à l'IA:</p>\n\n<blockquote>Tu aides un petit bureau suisse à préparer sa paie mensuelle. Voici ma fiche de référence: [institutions, comptes, seuils de salaire, calendrier des échéances]. Voici les changements de ce mois: [liste]. Rédige le message pour notre prestataire de paie avec ces changements et signale tout ce qui touche l'AVS, la LPP, l'assurance-accidents ou l'impôt à la source.</blockquote>\n\n<h3>Étape 3 — L'IA rédige, tu valides</h3>\n\n<p>L'IA ne paie personne et ne transmet rien. Elle rédige le message et signale ce qui paraît bizarre. Tu le relis une fois, tu corriges ce qui doit l'être et tu l'envoies — comme avec une collègue soigneuse.</p>\n\n<h2>Un second prompt: vérifier les chiffres</h2>\n\n<p>Avant d'envoyer, fais chercher précisément les erreurs qui reviennent d'habitude sous forme de correction:</p>\n\n<blockquote>Vérifie ce message de paie pour les erreurs suisses courantes: chaque nouvelle collaboratrice est-elle bien assurée, les seuils LPP et LAA sont-ils respectés, quelqu'un est-il soumis à l'impôt à la source, et les montants correspondent-ils au mois précédent ? Liste tout ce qui semble faux ou manquant.</blockquote>\n\n<h2>Le certificat de salaire en fin d'année</h2>\n\n<p>Chaque janvier, la même question revient: le certificat de salaire. Il a un champ pour presque tout — salaire brut, cotisations, frais, prestations en nature — et chaque champ a ses règles.</p>\n\n<p>C'est là que l'IA gagne son salaire comme deuxième paire d'yeux. Donne-lui le certificat de l'année passée, les douze récapitulatifs mensuels et les instructions en vigueur, et demande-lui de rédiger le nouveau certificat champ par champ — en signalant tout ce qui diffère de l'année précédente et tout ce qui demande ta décision.</p>\n\n<p>Le résultat n'est pas un document fini que tu signes les yeux fermés. C'est un premier brouillon que tu peux relire sans stress — au lieu d'un formulaire vide fin janvier.</p>\n\n<h2>Une réserve honnête</h2>\n\n<p>L'IA ne calcule pas de cotisations, ne déclare rien auprès des institutions et ne remplace ni ton prestataire de paie ni ta fiduciaire. Elle rédige, vérifie et rappelle — les parties mécaniques qui te prennent du temps. La responsabilité des chiffres te revient, exactement comme il se doit.</p>\n\n<h2>Le résultat</h2>\n\n<p>Une fiche de référence, une note mensuelle, deux courts prompts et un passage sur le certificat annuel. La paie cesse d'être une corvée mensuelle et devient une routine que tu boucles en une demi-heure — et le certificat de salaire est prêt avant la ruée, parce que le brouillon attendait déjà.</p>", "tag_payroll": "Paie", "tag_social_insurance": "Assurances sociales", "tag_deadlines": "Échéances", "related_heading": "À lire aussi", "rel1_title": "Comptabilité assistée par IA pour indépendants: justificatifs, rappels, suggestions de comptabilisation", "rel2_title": "Préparer ta déclaration d'impôts: une routine IA pour les indépendants et les PME", "rel3_title": "Remplir ton décompte TVA: une routine IA pour les indépendants et les PME suisses", "facturio_crosslink": "<p><strong>&Agrave; lire sur facturio.ch</strong> &mdash; <a href='https://facturio.ch/blog/ahv-contributions-self-employed/'>AHV Contributions for the Self-Employed: How They Are Calculated</a> : facturation suisse et QR-factures, expliqu&eacute;es pas &agrave; pas.</p>"}, "it": {"swiss": "<img src='../../assets/ch-flag.svg' alt='Swiss flag' style='width:18px;height:18px;flex:0 0 auto;'>Fatto per indipendenti e PMI svizzeri", "nav_solutions": "Soluzioni", "nav_how": "Come funziona", "nav_about": "Chi sono", "nav_blog": "Blog", "nav_cta": "Prenota una chiamata gratuita di 30 min", "back": "← Torna al blog", "footer_tag": "IA pratica per le PMI svizzere.", "footer_copy": "© 2026 strongwinds.ch · Svizzera", "author_tag": "Fondatore, strongwinds.ch · IA pratica per indipendenti e PMI svizzeri", "post_title": "Dalla busta paga al certificato di salario: una routine IA per libro paga e assicurazioni sociali", "meta_description": "Gestisci libro paga, assicurazioni sociali e il certificato di salario annuale con cura — una piccola routine IA che raccoglie le variazioni, verifica le regole AVS, LPP e imposta alla fonte e scrive il messaggio al tuo fornitore di libro paga.", "og_title": "Dalla busta paga al certificato di salario: una routine IA per libro paga e assicurazioni sociali", "og_description": "Gestisci libro paga, assicurazioni sociali e il certificato di salario annuale con cura — una piccola routine IA che raccoglie le variazioni, verifica le regole AVS, LPP e imposta alla fonte e scrive il messaggio al tuo fornitore di libro paga.", "post_content": "<p class=\"hero-lead\" style=\"margin-top: 0;\">Nel momento in cui un piccolo studio svizzero assume il suo primo dipendente, appare una pila silenziosa di pratiche: AVS, LPP, assicurazione contro gli infortuni, imposta alla fonte — e una volta all'anno, il certificato di salario. Niente di tutto questo è intellettualmente difficile, ma tutto è vincolato alle scadenze e facile da sbagliare anche solo di poco.</p>\n\n<p>La verità è che il libro paga non è un mistero — è un breve elenco di passi ripetuti con qualche dettaglio delicato. E i dettagli delicati sono esattamente ciò che l'IA gestisce bene: raccogliere le variazioni del mese, verificarle rispetto alle regole e scrivere il messaggio che va al tuo fornitore di libro paga o al tuo contabile.</p>\n\n<h2>Perché il libro paga divora silenziosamente il tuo tempo</h2>\n\n<p>Il libro paga raramente fallisce rumorosamente. Fallisce in silenzio, attraverso piccole omissioni che emergono settimane dopo come una correzione, una telefonata o una notifica di penale:</p>\n\n<ul>\n<li><strong>Molti istituti.</strong> Un dipendente fa sorgere obblighi verso AVS/AI/IPG, la cassa pensione (LPP), l'assicurazione contro gli infortuni (LAINF/INP) e, per il personale frontaliero o straniero, l'imposta alla fonte.</li>\n<li><strong>Molte scadenze.</strong> I contributi sono dovuti mensilmente o trimestralmente, e i rendiconti annuali seguono un loro calendario.</li>\n<li><strong>Il certificato di salario annuale.</strong> L'attestato che emetti ogni gennaio ha campi che è davvero facile compilare in modo sbagliato, e una cifra errata finisce dritta nella dichiarazione fiscale del dipendente.</li>\n</ul>\n\n<h2>Cosa deve davvero tracciare un piccolo studio</h2>\n\n<p>Togli i moduli e il libro paga è un breve elenco di fatti che cambiano ogni mese:</p>\n\n<ul>\n<li><strong>Variazioni:</strong> nuove assunzioni, uscite, cambi di stipendio, ore, assenze, premi.</li>\n<li><strong>Assicurazioni:</strong> chi è coperto da LPP e LAINF, e a quale livello salariale.</li>\n<li><strong>Imposta alla fonte:</strong> se un dipendente è tassato alla fonte e a quale aliquota.</li>\n<li><strong>I certificati di salario:</strong> la busta paga mensile e il certificato di salario annuale.</li>\n</ul>\n\n<h2>Una routine IA per gestirlo</h2>\n\n<h3>Passo 1 — Tieni un foglio master</h3>\n\n<p>Scrivi una volta i tuoi fatti del libro paga — gli istituti, i conti dei contributi, il calendario delle scadenze e i livelli salariali che fanno scattare LPP e LAINF. Questa è la parte che non cambia mai e quella in cui è più probabile trovare un refuso se la cerchi di nuovo ogni mese.</p>\n\n<h3>Passo 2 — Raccogli le variazioni del mese in una nota</h3>\n\n<p>Ogni mese, annota le variazioni in una singola breve nota: chi è entrato, chi è uscito, chi ha cambiato orario, eventuali premi o assenze. Poi consegna la nota e il tuo foglio master all'IA:</p>\n\n<blockquote>Stai aiutando un piccolo studio svizzero a preparare il libro paga mensile. Ecco il mio foglio master: [istituti, conti, livelli salariali, calendario delle scadenze]. Ecco le variazioni di questo mese: [elenco]. Ti chiedo di scrivere il messaggio al nostro fornitore di libro paga con le variazioni e di segnalare tutto ciò che riguarda AVS, LPP, assicurazione contro gli infortuni o imposta alla fonte.</blockquote>\n\n<h3>Passo 3 — L'IA scrive la bozza, tu approvi</h3>\n\n<p>L'IA non paga nessuno e non trasmette nulla. Scrive la bozza del messaggio e segnala ciò che sembra strano. La leggi una volta, correggi ciò che va corretto e la invii — allo stesso modo in cui faresti con un collega attento.</p>\n\n<h2>Un secondo prompt: controllare i numeri</h2>\n\n<p>Prima di inviare, fai un altro passaggio per cogliere il tipo di errore che si trasforma in una correzione:</p>\n\n<blockquote>Controlla questo messaggio di libro paga per gli errori svizzeri comuni: ogni nuova assunzione è coperta dalle assicurazioni giuste, le soglie LPP e LAINF sono rispettate, qualche dipendente è soggetto all'imposta alla fonte e gli importi sono coerenti con il mese scorso? Elenca tutto ciò che sembra sbagliato o mancante.</blockquote>\n\n<h2>Il certificato di salario a fine anno</h2>\n\n<p>Ogni gennaio torna la stessa domanda: il certificato di salario. Il certificato di salario ha un campo specifico per quasi tutto — salario lordo, contributi, indennità di spesa, prestazioni in natura — e ogni campo ha le sue regole.</p>\n\n<p>Qui l'IA si guadagna il suo posto come secondo paio d'occhi. Dalle il certificato di salario dell'anno scorso, i dodici riepiloghi mensili e le istruzioni attuali, e chiedile di redigere il nuovo attestato campo per campo, segnalando tutto ciò che differisce dall'anno precedente e tutto ciò che richiede una tua decisione.</p>\n\n<p>Il risultato non è un documento finito da firmare a occhi chiusi. È una prima bozza che puoi rivedere con cura, invece di un modulo vuoto a fine gennaio.</p>\n\n<h2>Un avvertimento onesto</h2>\n\n<p>L'IA non calcola i contributi, non deposita presso gli istituti e non sostituisce il tuo fornitore di libro paga o il tuo fiduciario. Scrive bozze, controlla e ricorda — le parti meccaniche che consumano il tuo tempo. La responsabilità finale sui numeri resta tua, esattamente come dovrebbe essere.</p>\n\n<h2>Il risultato</h2>\n\n<p>Un foglio master, una nota mensile, due brevi prompt e un passaggio sul certificato di fine anno. Il libro paga smette di essere un terrore mensile e diventa una routine che puoi concludere in una tranquilla mezz'ora — e il certificato di salario è pronto prima della corsa, perché la bozza era già lì ad aspettare.</p>", "tag_payroll": "Libro paga", "tag_social_insurance": "Assicurazioni sociali", "tag_deadlines": "Scadenze", "related_heading": "Articoli correlati", "rel1_title": "Contabilità con l'IA per indipendenti: ricevute, promemoria, suggerimenti di registrazione", "rel2_title": "Preparare la dichiarazione dei redditi: una routine IA per indipendenti e PMI", "rel3_title": "Dichiarare l'IVA trimestrale: una routine IA per indipendenti e PMI", "facturio_crosslink": "<p><strong>Correlato su facturio.ch</strong> &mdash; <a href='https://facturio.ch/blog/ahv-contributions-self-employed/'>Contributi AVS per gli indipendenti: come vengono calcolati</a>: Fatturazione svizzera &amp; QR-bill, spiegata passo dopo passo.</p>"}};
-function detectLanguage(){
- const urlParams = new URLSearchParams(window.location.search);
- const urlLang = urlParams.get('lang');
- if (urlLang === 'de' || urlLang === 'en' || urlLang === 'fr' || urlLang === 'it') return urlLang;
- return (navigator.language || 'en').toLowerCase().startsWith('de') ? 'de': (navigator.language || 'en').toLowerCase().startsWith('fr') ? 'fr': (navigator.language || 'en').toLowerCase().startsWith('it') ? 'it': 'en';
-}
-
-function applyLanguage(lang){
- const dict = translations[lang];
- document.documentElement.lang = lang;
- document.title = dict.post_title;
- document.getElementById('meta-description').setAttribute('content', dict.meta_description);
- document.getElementById('og-title').setAttribute('content', dict.og_title);
- document.getElementById('og-description').setAttribute('content', dict.og_description);
- document.querySelectorAll('[data-i18n]').forEach(el => {
- const key = el.dataset.i18n;
- if (dict[key] !== undefined) el.textContent = dict[key];
- });
- document.querySelectorAll('[data-i18n-html]').forEach(el => {
- const key = el.dataset.i18nHtml;
- if (dict[key] !== undefined) el.innerHTML = dict[key];
- });
- document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.lang === lang));
- const sel=document.querySelector(".lang-select");if(sel)sel.value=lang;
-const ddCur=document.querySelector(".lang-dd-current");if(ddCur){const b=document.querySelector('.lang-btn[data-lang="'+lang+'"]');if(b)ddCur.innerHTML=b.innerHTML;}const ddM=document.querySelector(".lang-dd-menu");if(ddM){ddM.querySelectorAll("[data-lang]").forEach(b=>{const act=b.dataset.lang===lang;let t=b.querySelector(".tick");if(act&&!t){const s=document.createElement("span");s.className="tick";s.textContent="✓";b.appendChild(s);}else if(!act&&t){t.remove();}});}
-}
-
-document.querySelectorAll('.lang-btn').forEach(btn => btn.addEventListener('click', () => applyLanguage(btn.dataset.lang)));
-const lsel=document.querySelector(".lang-select");if(lsel)lsel.addEventListener("change",e=>applyLanguage(e.target.value));
-applyLanguage(detectLanguage());
-
-</script>
-<script>(function(){var btn=document.querySelector(".lang-dd-btn"),menu=document.querySelector(".lang-dd-menu");if(!btn||!menu||btn.__dd2)return;btn.__dd2=true;function close(){menu.classList.remove("open");btn.setAttribute("aria-expanded","false");}btn.addEventListener("click",function(e){e.stopPropagation();var o=menu.classList.toggle("open");btn.setAttribute("aria-expanded",o?"true":"false");});document.addEventListener("click",function(e){if(!menu.parentElement.contains(e.target))close();});menu.addEventListener("click",function(e){var b=e.target.closest("[data-lang]");if(!b)return;close();var u=b.getAttribute("data-href");if(u){window.location.href=u;return;}if(typeof applyLanguage==="function")applyLanguage(b.dataset.lang);var cur=btn.querySelector(".lang-dd-current");if(cur)cur.textContent=b.dataset.lang.toUpperCase();});var l=(document.documentElement.lang||"en").slice(0,2);if(["en","de","fr","it"].indexOf(l)<0)l="en";var cur=btn.querySelector(".lang-dd-current");if(cur)cur.textContent=l.toUpperCase();var act=menu.querySelector('[data-lang="'+l+'"]');if(act&&!act.querySelector(".tick")){var s=document.createElement("span");s.className="tick";s.textContent="✓";act.appendChild(s);}})();</script>
-</body>
-</html>
+</div>
+</div>
+</section>
+<aside class="related-posts">
+<div class="container narrow">
+<h2>Related posts</h2>
+<ul class="related-list">
+<li><a href="/blog/posts/ai-bookkeeping-self-employed/">AI Bookkeeping for Self-employed: Receipts, Reminders, Booking Suggestions</a></li>
+<li><a href="/blog/posts/preparing-tax-return-ai/">Preparing Your Tax Return: An AI Routine for Self-employed and SMEs</a></li>
+<li><a href="/blog/posts/quarterly-vat-statement/">Filing Your Quarterly VAT: An AI Routine for Self-employed and SMEs</a></li>
+</ul>
+</div>
+</aside>
+</article>
+</main><footer class="site-footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="/"><img src="/assets/logo-mark.svg" alt="" width="38" height="38"><span>strongwinds<span class="dot">.ch</span></span></a><p>AI agents for Swiss businesses.<br>Based in Fuerteventura. Working with Swiss businesses.</p></div><div><h3>Navigation</h3><nav><a href="/#solutions">Solutions</a><a href="/ai-agents/">AI agents</a><a href="/about/">About me</a><a href="/blog/">Blog</a><a href="/projects/">Projects</a></nav></div><div><h3>Get in touch</h3><nav><a href="mailto:christian@strongwinds.ch">Email</a><a href="https://wa.me/41762558277">WhatsApp</a><a href="https://www.linkedin.com/in/nussbi">LinkedIn</a></nav></div><div><h3>Privacy</h3><nav><a href="/privacy/">Privacy</a><button type="button" data-cookie-settings>Cookie settings</button></nav></div></div><div class="footer-bottom"><span>© 2026 strongwinds.ch · Christian Nussbaumer</span><span>OpenClaw · Hermes Agent · AI automation</span></div></div></footer><aside id="cookie-panel" class="cookie-panel" hidden aria-label="Cookie settings"><p>Optional analytics stay off unless you agree. They help me understand how the website is used. <a href="/privacy/">Privacy</a></p><div class="actions"><button class="button secondary" type="button" data-consent="no">No thanks</button><button class="button" type="button" data-consent="yes">Allow analytics</button></div></aside></body></html>
