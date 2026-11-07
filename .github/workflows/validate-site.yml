@@ -1,0 +1,22 @@
+name: Validate static site
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install -r requirements.txt
+      - name: Validate routes, resources, metadata and language alternates
+        run: python scripts/validate.py
+      - name: Stage public files and confirm favicon and preserved archive
+        run: |
+          python scripts/stage.py
+          test -f dist/favicon.ico
+          python -c "import json; x=json.load(open('blog-preservation.json')); assert x['unique_posts'] >= 101; assert all(p['body_unchanged'] for p in x['checks'])"
