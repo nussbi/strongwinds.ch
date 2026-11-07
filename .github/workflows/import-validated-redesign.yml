@@ -1,0 +1,38 @@
+name: Import validated redesign
+on:
+  push:
+    branches: [redesign/site-20261108]
+    paths: [.github/workflows/import-validated-redesign.yml]
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: redesign/site-20261108
+      - name: Download checksum-verified source
+        run: |
+          curl --fail --location --retry 3 'https://318cd2c0.strongwinds-landing.pages.dev/validated-source-62efdd35aa694c04aa4cbc85b46680ce.zip' -o /tmp/redesign.zip
+          echo '16f3a81d701f143300ae3f22f903df3d3d4e0d5bbf13a8e8c00e4e0dd584f447  /tmp/redesign.zip' | sha256sum --check
+          unzip -q /tmp/redesign.zip -d /tmp/redesign
+          cp -a /tmp/redesign/. .
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Validate all pages and stage the public site
+        run: |
+          pip install -r requirements.txt
+          python scripts/validate.py
+          python scripts/stage.py
+          test -f dist/favicon.ico
+          python -c "import json; x=json.load(open('blog-preservation.json')); assert x['unique_posts']==101; assert all(p['body_unchanged'] for p in x['checks'])"
+      - name: Commit complete source without deleting existing content
+        run: |
+          printf '\n# Generated deployment output\ndist/\n' >> .gitignore
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m 'Redesign all pages; preserve 101 blog posts and translations; add favicon.ico and SEO validation'
+          git push origin HEAD:redesign/site-20261108
