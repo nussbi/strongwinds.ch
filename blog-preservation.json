@@ -1,0 +1,2429 @@
+{
+  "unique_posts": 101,
+  "checks": [
+    {
+      "slug": "ai-agenten-fuer-schweizer-kmu",
+      "language": "en",
+      "title": "How Swiss Solopreneurs Can Turn WhatsApp and Email Inquiries into a Simple CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-agents-reality-check",
+      "language": "en",
+      "title": "AI Agents: What Actually Works (and What Is Still Hype)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-assistant-on-your-own-computer",
+      "language": "en",
+      "title": "Your Own AI Assistant on Your Own Computer: Client Data That Stays With You",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-bookkeeping-self-employed",
+      "language": "en",
+      "title": "AI Bookkeeping for Self-employed: Receipts, Reminders, Booking Suggestions",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-bookkeeping-whats-real",
+      "language": "en",
+      "title": "AI Bookkeeping for Swiss Self-Employed: What’s Real",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-checks-ai-work",
+      "language": "en",
+      "title": "A Second AI That Checks the First: Catching Mistakes Before You Send",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-document-search-without-vectors",
+      "language": "en",
+      "title": "Find Anything in Your Documents: AI Search Without the Technical Setup",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-for-swiss-smes-where-to-start",
+      "language": "en",
+      "title": "AI for Swiss SMEs: Where to Actually Start (No Hype)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-inbox-sorting-small-offices",
+      "language": "en",
+      "title": "Sort Your Inbox with AI: A Daily Workflow for Small Swiss Offices",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-market-research-solo-business",
+      "language": "en",
+      "title": "AI Market Research for a Solo Business: A Practical Routine",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-prompts-office-german",
+      "language": "en",
+      "title": "10 German AI Prompts for the Office (Copy-Paste Ready)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-proofreading-offers-letters",
+      "language": "en",
+      "title": "A Second Pair of Eyes: AI Proofreading for Offers, Invoices and Letters",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-routine-client-thank-you-note",
+      "language": "en",
+      "title": "A Note They'll Remember: An AI Routine for a Warm Client Thank-You",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-routine-tidy-file-names",
+      "language": "en",
+      "title": "Tidy Files, Found Fast: An AI Routine for Naming and Sorting Digital Files",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-that-reads-your-company-documents",
+      "language": "en",
+      "title": "An AI That Reads Your Company Documents — On Your Own Computer",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-written-job-applications",
+      "language": "en",
+      "title": "AI-Written Job Applications: How Small Swiss Businesses Should Hire Now",
+      "body_unchanged": true
+    },
+    {
+      "slug": "aml-paperwork-fiduciaries-notaries",
+      "language": "en",
+      "title": "AML Paperwork Without the Grind: An AI Routine for Fiduciaries and Notaries",
+      "body_unchanged": true
+    },
+    {
+      "slug": "announcing-price-changes",
+      "language": "en",
+      "title": "Raising Your Prices Gracefully: An AI Routine for Announcing a Price Change",
+      "body_unchanged": true
+    },
+    {
+      "slug": "answering-reviews-calmly",
+      "language": "en",
+      "title": "Answering Reviews and Client Feedback with Confidence: A Simple AI Routine for Swiss SMEs",
+      "body_unchanged": true
+    },
+    {
+      "slug": "audit-revision-preparation",
+      "language": "en",
+      "title": "Preparing for Your Swiss Audit: An AI Routine for SMEs and Fiduciaries",
+      "body_unchanged": true
+    },
+    {
+      "slug": "automatisierung-selbststaendige",
+      "language": "en",
+      "title": "Automation for Self-Employed: 5 Tasks to Hand Off First",
+      "body_unchanged": true
+    },
+    {
+      "slug": "chatgpt-schweiz",
+      "language": "en",
+      "title": "ChatGPT for Swiss Companies: First Tools and Workflows That Pay Off",
+      "body_unchanged": true
+    },
+    {
+      "slug": "claude-knowledge-work-plugins",
+      "language": "en",
+      "title": "Knowledge Work Plugins: AI Assistants With a Job Description",
+      "body_unchanged": true
+    },
+    {
+      "slug": "clean-faq-page-ai-routine",
+      "language": "en",
+      "title": "A Clean FAQ Page, Built One Question at a Time",
+      "body_unchanged": true
+    },
+    {
+      "slug": "clear-service-descriptions",
+      "language": "en",
+      "title": "Clear Service Descriptions: An AI Routine for Explaining What You Do",
+      "body_unchanged": true
+    },
+    {
+      "slug": "client-intake-workflow",
+      "language": "en",
+      "title": "From First Contact to First Invoice: A Client-Intake Workflow with AI",
+      "body_unchanged": true
+    },
+    {
+      "slug": "client-meeting-prep",
+      "language": "en",
+      "title": "The One-Page Client Brief: AI Prep Before Every Meeting",
+      "body_unchanged": true
+    },
+    {
+      "slug": "client-reports-ai",
+      "language": "en",
+      "title": "Client Reports People Actually Read: An AI Routine for Fiduciaries, Doctors and Notaries",
+      "body_unchanged": true
+    },
+    {
+      "slug": "comparing-supplier-offers",
+      "language": "en",
+      "title": "Comparing Offers Without the Guesswork: An AI Routine for Choosing the Right Supplier",
+      "body_unchanged": true
+    },
+    {
+      "slug": "competitor-pricing-ai-routine",
+      "language": "en",
+      "title": "Turn Competitor Pricing into a Simple Comparison",
+      "body_unchanged": true
+    },
+    {
+      "slug": "compositor-image-editor-small-business",
+      "language": "en",
+      "title": "Compositor: A Free Photoshop Alternative for Small-Business Images",
+      "body_unchanged": true
+    },
+    {
+      "slug": "contract-review-before-signing",
+      "language": "en",
+      "title": "Reading the Fine Print: An AI Routine for Checking Contracts Before You Sign",
+      "body_unchanged": true
+    },
+    {
+      "slug": "difficult-client-conversations",
+      "language": "en",
+      "title": "Saying the Hard Things Calmly: An AI Routine for Difficult Client Conversations",
+      "body_unchanged": true
+    },
+    {
+      "slug": "digitising-paper-archive",
+      "language": "en",
+      "title": "Find Any Document in Seconds: An AI Routine for Digitising Your Paper Archive",
+      "body_unchanged": true
+    },
+    {
+      "slug": "document-summaries-plain-language",
+      "language": "en",
+      "title": "Understand Every Document: An AI Routine for Contracts and Official Letters",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ds4-local-ai-engine",
+      "language": "en",
+      "title": "Running Frontier AI Locally: The DS4 Engine and What It Means for Swiss SMEs",
+      "body_unchanged": true
+    },
+    {
+      "slug": "end-your-day-in-peace",
+      "language": "en",
+      "title": "End Your Workday in Peace: A Five-Minute AI Routine to Clear Your Head",
+      "body_unchanged": true
+    },
+    {
+      "slug": "fewer-missed-appointments",
+      "language": "en",
+      "title": "Fewer Missed Appointments: An AI Routine for Reminders and Rescheduling",
+      "body_unchanged": true
+    },
+    {
+      "slug": "filee-offline-file-converter",
+      "language": "en",
+      "title": "Filee: A Free File Converter That Never Uploads Your Files",
+      "body_unchanged": true
+    },
+    {
+      "slug": "find-your-first-ai-task",
+      "language": "en",
+      "title": "Find Your First AI Task: A One-Week Audit of Where Your Time Really Goes",
+      "body_unchanged": true
+    },
+    {
+      "slug": "freelance-proposals",
+      "language": "en",
+      "title": "Automating Consulting Proposals for Freelancers",
+      "body_unchanged": true
+    },
+    {
+      "slug": "friendly-payment-reminders",
+      "language": "en",
+      "title": "Getting Paid on Time: An AI Routine for Friendly Payment Reminders",
+      "body_unchanged": true
+    },
+    {
+      "slug": "friendly-whatsapp-replies-ai-routine",
+      "language": "en",
+      "title": "Short, Friendly WhatsApp Replies That Save You Time",
+      "body_unchanged": true
+    },
+    {
+      "slug": "gridcraft-open-source-excel-alternative",
+      "language": "en",
+      "title": "GridCraft: A Free, Excel-Compatible Spreadsheet Your AI Can Operate",
+      "body_unchanged": true
+    },
+    {
+      "slug": "holiday-out-of-office",
+      "language": "en",
+      "title": "Take a Real Holiday: An AI Routine for Your Out-of-Office",
+      "body_unchanged": true
+    },
+    {
+      "slug": "incoming-mail-routine",
+      "language": "en",
+      "title": "Sorting the Day's Mail: An AI Routine for Incoming Letters",
+      "body_unchanged": true
+    },
+    {
+      "slug": "jev-ai-reply-assistant-whatsapp",
+      "language": "en",
+      "title": "Jev: An AI That Reads the Room Before You Reply",
+      "body_unchanged": true
+    },
+    {
+      "slug": "job-posting-ai-routine",
+      "language": "en",
+      "title": "Write a Fair Job Posting in Minutes",
+      "body_unchanged": true
+    },
+    {
+      "slug": "job-references-ai",
+      "language": "en",
+      "title": "Writing the Swiss Job Reference: An AI Routine for Employers",
+      "body_unchanged": true
+    },
+    {
+      "slug": "kev-classification-open-source-api",
+      "language": "en",
+      "title": "Kev: Open-Source Classification API for Swiss SMEs — Routing Tickets, Documents & Decisions Without Paid APIs",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-agenten-schweiz",
+      "language": "en",
+      "title": "What AI Agents Can and Can’t Do for a Swiss Small Business",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-angebote",
+      "language": "en",
+      "title": "Offers That Actually Close: An AI Workflow for Proposals and Quotes",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-daten-export",
+      "language": "en",
+      "title": "Avoiding AI Vendor Lock-in: Keeping Your Business Data Portable",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-einzelfirma",
+      "language": "en",
+      "title": "AI for a One-Person Business: A 30-Day Starter Plan for Swiss Solo Self-Employed",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-fuer-kmu",
+      "language": "en",
+      "title": "AI for Swiss SMEs: Where to Actually Start (No Hype)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-grenzen",
+      "language": "en",
+      "title": "Where AI Still Fails: An Honest Guide for Swiss SMEs",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-kundenbriefe",
+      "language": "en",
+      "title": "Client Letters That Still Sound Like You: A Practical AI Workflow",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-meeting-notizen",
+      "language": "en",
+      "title": "Turning Meeting Notes Into Action Items: An AI Routine for Swiss Self-Employed",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-modell-wahl",
+      "language": "en",
+      "title": "GPT, Claude or Local? Choosing an AI Model for Your Swiss Business",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-social-media",
+      "language": "en",
+      "title": "Social Media Content That Doesn't Sound Like AI: A Practical Routine for Swiss SMEs",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-steuererklaerung",
+      "language": "en",
+      "title": "AI for Your Swiss Tax Return: What It Helps With (and What It Can’t)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-tools-vergleich",
+      "language": "en",
+      "title": "The Only AI Tools a Swiss SME Needs in 2026",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-zeit-sparen",
+      "language": "en",
+      "title": "The 10 Hours a Week AI Can Give Back to a Swiss Freelancer",
+      "body_unchanged": true
+    },
+    {
+      "slug": "knowledge-base-emails",
+      "language": "en",
+      "title": "Building a Knowledge Base from Old Emails",
+      "body_unchanged": true
+    },
+    {
+      "slug": "lightcraft-private-client-photos-small-business",
+      "language": "en",
+      "title": "LightCraft for Swiss SMEs: Edit Client Photos on Your Own Computer",
+      "body_unchanged": true
+    },
+    {
+      "slug": "local-ai-on-your-laptop",
+      "language": "en",
+      "title": "Local AI on Your Laptop: A Beginner's Guide for Swiss Practices",
+      "body_unchanged": true
+    },
+    {
+      "slug": "manager-meeting-summaries",
+      "language": "en",
+      "title": "The Manager's Guide to AI Meeting Summaries",
+      "body_unchanged": true
+    },
+    {
+      "slug": "medical-transcription",
+      "language": "en",
+      "title": "Why Swiss Doctors Are Switching to Local AI Dictation",
+      "body_unchanged": true
+    },
+    {
+      "slug": "meta-muse-small-business-agent",
+      "language": "en",
+      "title": "Meta's New AI Agent for Small Businesses: Worth a Try?",
+      "body_unchanged": true
+    },
+    {
+      "slug": "microsoft-copilot-swiss-teams",
+      "language": "en",
+      "title": "Microsoft Copilot for Swiss Teams: Start Small, Win Early",
+      "body_unchanged": true
+    },
+    {
+      "slug": "monthly-client-newsletter",
+      "language": "en",
+      "title": "Stay Top of Mind with Clients: An AI Routine for Your Monthly Newsletter",
+      "body_unchanged": true
+    },
+    {
+      "slug": "monthly-state-of-business-summary",
+      "language": "en",
+      "title": "Know Where Your Business Stands Every Month",
+      "body_unchanged": true
+    },
+    {
+      "slug": "multilingual-client-letters",
+      "language": "en",
+      "title": "Writing to Clients in Their Own Language: AI for German, French and English Letters",
+      "body_unchanged": true
+    },
+    {
+      "slug": "nanoclaw-whatsapp-ai-assistant",
+      "language": "en",
+      "title": "NanoClaw: A WhatsApp AI Assistant That Only Sees Its Own Conversations",
+      "body_unchanged": true
+    },
+    {
+      "slug": "never-miss-a-deadline",
+      "language": "en",
+      "title": "Never Miss a Deadline: An AI Routine for Legal and Tax Dates",
+      "body_unchanged": true
+    },
+    {
+      "slug": "notary-workflow",
+      "language": "en",
+      "title": "How Swiss Notaries Can Cut Document Drafting Time by 80%",
+      "body_unchanged": true
+    },
+    {
+      "slug": "octop-self-hosted-ai",
+      "language": "en",
+      "title": "Octop: A Self-Hosted AI Assistant That Runs on Your Own Computer",
+      "body_unchanged": true
+    },
+    {
+      "slug": "one-ai-for-the-whole-office",
+      "language": "en",
+      "title": "One AI for the Whole Office: A Private Assistant for Every Team Member",
+      "body_unchanged": true
+    },
+    {
+      "slug": "one-page-ai-policy",
+      "language": "en",
+      "title": "Your One-Page AI Policy: Clear Rules for Notaries, Fiduciaries and Doctors",
+      "body_unchanged": true
+    },
+    {
+      "slug": "open-offers-follow-up",
+      "language": "en",
+      "title": "Never Let an Offer Go Cold: An AI Routine for Following Up on Open Quotes",
+      "body_unchanged": true
+    },
+    {
+      "slug": "opendots-ai-coworker-small-office",
+      "language": "en",
+      "title": "OpenDots: An AI Coworker for Small Offices — What to Check First",
+      "body_unchanged": true
+    },
+    {
+      "slug": "payroll-lohnausweis-routine",
+      "language": "en",
+      "title": "From Payslip to Lohnausweis: An AI Routine for Payroll and Social Insurance",
+      "body_unchanged": true
+    },
+    {
+      "slug": "pdfcraft-offline-pdf-editor",
+      "language": "en",
+      "title": "PdfCraft: A Free PDF Editor That Keeps Your Files on Your Own Computer",
+      "body_unchanged": true
+    },
+    {
+      "slug": "phone-calls-voicemails",
+      "language": "en",
+      "title": "From Phone Call to Follow-Up: An AI Routine for Calls and Voicemails",
+      "body_unchanged": true
+    },
+    {
+      "slug": "plain-language-client-explanations",
+      "language": "en",
+      "title": "Explanations Your Clients Actually Understand: An AI Routine for Plain-Language Advice",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ppt-master-client-proposal-presentations",
+      "language": "en",
+      "title": "PPT Master for Client Proposals: From Documents to Editable Slides",
+      "body_unchanged": true
+    },
+    {
+      "slug": "preparing-tax-return-ai",
+      "language": "en",
+      "title": "Preparing Your Tax Return: An AI Routine for Self-employed and SMEs",
+      "body_unchanged": true
+    },
+    {
+      "slug": "quarterly-vat-statement",
+      "language": "en",
+      "title": "Filing Your Quarterly VAT: An AI Routine for Self-employed and SMEs",
+      "body_unchanged": true
+    },
+    {
+      "slug": "recurring-email-replies",
+      "language": "en",
+      "title": "Replies That Sound Like You: An AI Routine for Your Recurring Emails",
+      "body_unchanged": true
+    },
+    {
+      "slug": "regulatory-changes-routine",
+      "language": "en",
+      "title": "New Rules Without the Stress: An AI Routine for Circulars, Laws and Deadlines",
+      "body_unchanged": true
+    },
+    {
+      "slug": "safe-ai-agents-swiss-smes",
+      "language": "en",
+      "title": "Safe AI Agents for Your Swiss Business: A Plain-Language Security Checklist",
+      "body_unchanged": true
+    },
+    {
+      "slug": "skillspector-ai-security-scanner",
+      "language": "en",
+      "title": "SkillSpector: A Free Scanner That Checks AI Add-Ons Before You Install Them",
+      "body_unchanged": true
+    },
+    {
+      "slug": "standard-office-processes-ai",
+      "language": "en",
+      "title": "Write It Down Once: An AI Routine for Your Standard Office Processes",
+      "body_unchanged": true
+    },
+    {
+      "slug": "swiss-data-protection-act-ai",
+      "language": "en",
+      "title": "AI and the Swiss Data Protection Act: What Self-employed and SMEs Must Know",
+      "body_unchanged": true
+    },
+    {
+      "slug": "swiss-qr-bill-invoices",
+      "language": "en",
+      "title": "The Swiss QR-Bill Without Errors: An AI Routine for Your Invoices",
+      "body_unchanged": true
+    },
+    {
+      "slug": "tidy-client-contact-list",
+      "language": "en",
+      "title": "Tidy Client Data, Fewer Mistakes: An AI Routine for Your Contact List",
+      "body_unchanged": true
+    },
+    {
+      "slug": "time-tracking-invoicing",
+      "language": "en",
+      "title": "From Timesheet to Invoice: A Monthly AI Routine for Small Swiss Offices",
+      "body_unchanged": true
+    },
+    {
+      "slug": "track-software-subscriptions-ai",
+      "language": "en",
+      "title": "Track Every Software Subscription Without the Spreadsheet",
+      "body_unchanged": true
+    },
+    {
+      "slug": "weekly-pendenzen-review",
+      "language": "en",
+      "title": "The Weekly Pendenzen Review: 20 Minutes for a Clearer Week",
+      "body_unchanged": true
+    },
+    {
+      "slug": "what-ai-actually-costs",
+      "language": "en",
+      "title": "What AI Actually Costs: A Transparent Guide for Swiss Businesses",
+      "body_unchanged": true
+    },
+    {
+      "slug": "whatsapp-email-crm",
+      "language": "en",
+      "title": "How Swiss Solopreneurs Can Turn WhatsApp and Email Inquiries into a Simple CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-agenten-fuer-schweizer-kmu",
+      "language": "de",
+      "title": "Wie Selbständige WhatsApp- und E-Mail-Anfragen in ein einfaches CRM verwandeln",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-agents-reality-check",
+      "language": "de",
+      "title": "KI-Agenten: Was wirklich funktioniert (und was noch Hype ist)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-assistant-on-your-own-computer",
+      "language": "de",
+      "title": "Der eigene KI-Assistent auf dem eigenen Computer: Kundendaten bleiben bei Ihnen",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-bookkeeping-self-employed",
+      "language": "de",
+      "title": "KI-Buchhaltung für Selbständige: Belege, Mahnungen, Buchungsvorschläge",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-bookkeeping-whats-real",
+      "language": "de",
+      "title": "KI-Buchhaltung für Schweizer Selbstständige: Was ist wirklich möglich?",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-checks-ai-work",
+      "language": "de",
+      "title": "Eine zweite KI, die die erste prüft: Fehler erkennen, bevor Sie senden",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-document-search-without-vectors",
+      "language": "de",
+      "title": "Alles in Ihren Dokumenten finden: KI-Suche ohne technischen Aufwand",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-for-swiss-smes-where-to-start",
+      "language": "de",
+      "title": "KI für KMU: Wo Sie wirklich anfangen — ohne Hype",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-inbox-sorting-small-offices",
+      "language": "de",
+      "title": "Den Posteingang mit KI sortieren: ein Tagesablauf für kleine Schweizer Büros",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-market-research-solo-business",
+      "language": "de",
+      "title": "KI-Marktforschung für Einzelfirmen: eine praktische Routine",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-prompts-office-german",
+      "language": "de",
+      "title": "10 KI-Prompts fürs Büro (zum Kopieren)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-proofreading-offers-letters",
+      "language": "de",
+      "title": "Ein zweites Paar Augen: KI-Korrekturlesen für Offerten, Rechnungen und Briefe",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-routine-client-thank-you-note",
+      "language": "de",
+      "title": "Ein Dank, der bleibt: Eine KI-Routine für persönliche Dankesnotizen an Kunden",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-routine-tidy-file-names",
+      "language": "de",
+      "title": "Aufgeräumte Dateien, alles wiedergefunden: Eine KI-Routine für Ordnung im digitalen Papierkram",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-that-reads-your-company-documents",
+      "language": "de",
+      "title": "Eine KI, die Ihre Firmendokumente liest — auf Ihrem eigenen Computer",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-written-job-applications",
+      "language": "de",
+      "title": "KI-geschriebene Bewerbungen: Wie kleine Schweizer Firmen heute einstellen sollten",
+      "body_unchanged": true
+    },
+    {
+      "slug": "aml-paperwork-fiduciaries-notaries",
+      "language": "de",
+      "title": "Sorgfaltspflichten ohne Mühsal: Eine KI-Routine für Treuhand und Notariat",
+      "body_unchanged": true
+    },
+    {
+      "slug": "announcing-price-changes",
+      "language": "de",
+      "title": "Preise souverän erhöhen: Eine KI-Routine für die Ankündigung einer Preisänderung",
+      "body_unchanged": true
+    },
+    {
+      "slug": "answering-reviews-calmly",
+      "language": "de",
+      "title": "Bewertungen und Kundenfeedback souverän beantworten: eine einfache KI-Routine für Schweizer KMU",
+      "body_unchanged": true
+    },
+    {
+      "slug": "audit-revision-preparation",
+      "language": "de",
+      "title": "Die Revision meistern: Eine KI-Routine für KMU und Treuhandbüros",
+      "body_unchanged": true
+    },
+    {
+      "slug": "automatisierung-selbststaendige",
+      "language": "de",
+      "title": "Automatisierung für Selbstständige: Fünf Aufgaben, die Sie zuerst abgeben sollten",
+      "body_unchanged": true
+    },
+    {
+      "slug": "chatgpt-schweiz",
+      "language": "de",
+      "title": "ChatGPT für Schweizer Firmen: Erste Werkzeuge und Workflows, die sich lohnen",
+      "body_unchanged": true
+    },
+    {
+      "slug": "claude-knowledge-work-plugins",
+      "language": "de",
+      "title": "Knowledge Work Plugins: KI-Assistenten mit Stellenbeschreibung",
+      "body_unchanged": true
+    },
+    {
+      "slug": "clean-faq-page-ai-routine",
+      "language": "de",
+      "title": "Eine aufgeräumte FAQ-Seite, Frage für Frage",
+      "body_unchanged": true
+    },
+    {
+      "slug": "clear-service-descriptions",
+      "language": "de",
+      "title": "Klare Leistungsbeschriebe: Eine KI-Routine, um zu erklären, was Sie tun",
+      "body_unchanged": true
+    },
+    {
+      "slug": "client-intake-workflow",
+      "language": "de",
+      "title": "Vom ersten Kontakt zur ersten Rechnung: eine Kundenaufnahme mit KI",
+      "body_unchanged": true
+    },
+    {
+      "slug": "client-meeting-prep",
+      "language": "de",
+      "title": "Die Ein-Seiten-Klientenübersicht: KI-Vorbereitung vor jedem Gespräch",
+      "body_unchanged": true
+    },
+    {
+      "slug": "client-reports-ai",
+      "language": "de",
+      "title": "Kundenberichte, die wirklich gelesen werden: eine KI-Routine für Treuhandbüros, Arztpraxen und Notariate",
+      "body_unchanged": true
+    },
+    {
+      "slug": "comparing-supplier-offers",
+      "language": "de",
+      "title": "Offerten vergleichen ohne Rätselraten: Eine KI-Routine für die Wahl des richtigen Anbieters",
+      "body_unchanged": true
+    },
+    {
+      "slug": "competitor-pricing-ai-routine",
+      "language": "de",
+      "title": "Preise der Konkurrenz in einen einfachen Vergleich verwandeln",
+      "body_unchanged": true
+    },
+    {
+      "slug": "compositor-image-editor-small-business",
+      "language": "de",
+      "title": "Compositor: eine kostenlose Photoshop-Alternative für Bilder im Kleinbetrieb",
+      "body_unchanged": true
+    },
+    {
+      "slug": "contract-review-before-signing",
+      "language": "de",
+      "title": "Das Kleingedruckte lesen: Eine KI-Routine zum Prüfen von Verträgen vor der Unterschrift",
+      "body_unchanged": true
+    },
+    {
+      "slug": "difficult-client-conversations",
+      "language": "de",
+      "title": "Schwierige Gespräche in Ruhe führen: Eine KI-Routine für heikle Kundengespräche",
+      "body_unchanged": true
+    },
+    {
+      "slug": "digitising-paper-archive",
+      "language": "de",
+      "title": "Jedes Dokument in Sekunden finden: Das Papierarchiv digitalisieren, mit KI",
+      "body_unchanged": true
+    },
+    {
+      "slug": "document-summaries-plain-language",
+      "language": "de",
+      "title": "Jedes Dokument verstehen: Eine KI-Routine für Verträge und amtliche Schreiben",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ds4-local-ai-engine",
+      "language": "de",
+      "title": "Frontier KI lokal ausführen: Der DS4-Motor und was er für Schweizer KMU bedeutet",
+      "body_unchanged": true
+    },
+    {
+      "slug": "end-your-day-in-peace",
+      "language": "de",
+      "title": "Feierabend in Ruhe: Eine Fünf-Minuten-KI-Routine, um den Kopf frei zu bekommen",
+      "body_unchanged": true
+    },
+    {
+      "slug": "fewer-missed-appointments",
+      "language": "de",
+      "title": "Weniger verpasste Termine: Eine KI-Routine für Erinnerungen und Umbuchungen",
+      "body_unchanged": true
+    },
+    {
+      "slug": "filee-offline-file-converter",
+      "language": "de",
+      "title": "Filee: ein kostenloser Dateikonverter, der Ihre Dateien nie hochlädt",
+      "body_unchanged": true
+    },
+    {
+      "slug": "find-your-first-ai-task",
+      "language": "de",
+      "title": "Deine erste KI-Aufgabe finden: Eine Wochenbilanz, wohin deine Zeit wirklich fliesst",
+      "body_unchanged": true
+    },
+    {
+      "slug": "freelance-proposals",
+      "language": "de",
+      "title": "Automatisierung von Beratungsangeboten für Freiberufler",
+      "body_unchanged": true
+    },
+    {
+      "slug": "friendly-payment-reminders",
+      "language": "de",
+      "title": "Pünktlich bezahlt: Mahnungen schreiben, mit KI",
+      "body_unchanged": true
+    },
+    {
+      "slug": "friendly-whatsapp-replies-ai-routine",
+      "language": "de",
+      "title": "Kurze, freundliche WhatsApp-Antworten, die Zeit sparen",
+      "body_unchanged": true
+    },
+    {
+      "slug": "gridcraft-open-source-excel-alternative",
+      "language": "de",
+      "title": "GridCraft: Eine Excel-kompatible Tabellenkalkulation, die eine KI bedienen kann",
+      "body_unchanged": true
+    },
+    {
+      "slug": "holiday-out-of-office",
+      "language": "de",
+      "title": "Endlich richtig Ferien: Eine KI-Routine für deine Abwesenheit",
+      "body_unchanged": true
+    },
+    {
+      "slug": "incoming-mail-routine",
+      "language": "de",
+      "title": "Die tägliche Post sortieren: Eine KI-Routine für eingehende Briefe",
+      "body_unchanged": true
+    },
+    {
+      "slug": "jev-ai-reply-assistant-whatsapp",
+      "language": "de",
+      "title": "Jev: eine KI, die die Stimmung liest, bevor Sie antworten",
+      "body_unchanged": true
+    },
+    {
+      "slug": "job-posting-ai-routine",
+      "language": "de",
+      "title": "Eine faire Stellenausschreibung in wenigen Minuten",
+      "body_unchanged": true
+    },
+    {
+      "slug": "job-references-ai",
+      "language": "de",
+      "title": "Das Arbeitszeugnis schreiben: Eine KI-Routine für Arbeitgeber",
+      "body_unchanged": true
+    },
+    {
+      "slug": "kev-classification-open-source-api",
+      "language": "de",
+      "title": "Kev: Open-Source Klassifikations-API für Schweizer KMU — Routing, Dokumente & Entscheidungen ohne bezahlte APIs",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-agenten-schweiz",
+      "language": "de",
+      "title": "Was KI-Agenten für kleine Schweizer Firmen können – und was nicht",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-angebote",
+      "language": "de",
+      "title": "Offerten, die zum Abschluss führen: ein KI-Workflow für Angebote",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-daten-export",
+      "language": "de",
+      "title": "KI-Lock-in vermeiden: Ihre Firmendaten portabel halten",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-einzelfirma",
+      "language": "de",
+      "title": "KI für die Einzelfirma: Ein 30-Tage-Startplan für Solo-Selbstständige",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-fuer-kmu",
+      "language": "de",
+      "title": "KI für Schweizer KMUs: Wo eigentlich anfangen? (Kein Hype)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-grenzen",
+      "language": "de",
+      "title": "Wo KI heute noch scheitert: ein ehrlicher Ratgeber für Schweizer KMU",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-kundenbriefe",
+      "language": "de",
+      "title": "Kundenbriefe, die nach Ihnen klingen: ein praktischer KI-Workflow",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-meeting-notizen",
+      "language": "de",
+      "title": "Meeting-Notizen in Aufgaben verwandeln: eine KI-Routine für Selbständige",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-modell-wahl",
+      "language": "de",
+      "title": "GPT, Claude oder lokal? Das richtige KI-Modell für Ihr Schweizer KMU",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-social-media",
+      "language": "de",
+      "title": "Social-Media-Inhalte, die nicht nach KI klingen: eine praktische Routine für Schweizer KMU",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-steuererklaerung",
+      "language": "de",
+      "title": "KI für die Steuererklärung: was wirklich hilft – und was nicht",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-tools-vergleich",
+      "language": "de",
+      "title": "Die einzigen KI-Tools, die ein Schweizer KMU 2026 wirklich braucht",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-zeit-sparen",
+      "language": "de",
+      "title": "Die 10 Wochenstunden, die KI Schweizer Selbstständigen zurückgibt",
+      "body_unchanged": true
+    },
+    {
+      "slug": "knowledge-base-emails",
+      "language": "de",
+      "title": "Aufbau einer Wissensdatenbank aus alten E-Mails",
+      "body_unchanged": true
+    },
+    {
+      "slug": "lightcraft-private-client-photos-small-business",
+      "language": "de",
+      "title": "LightCraft für Schweizer KMU: Kundenfotos auf dem eigenen Computer bearbeiten",
+      "body_unchanged": true
+    },
+    {
+      "slug": "local-ai-on-your-laptop",
+      "language": "de",
+      "title": "Lokale KI auf deinem Laptop: Ein Einstieg für Schweizer Praxen",
+      "body_unchanged": true
+    },
+    {
+      "slug": "manager-meeting-summaries",
+      "language": "de",
+      "title": "Der Leitfaden für Manager zu KI-Meeting-Zusammenfassungen",
+      "body_unchanged": true
+    },
+    {
+      "slug": "medical-transcription",
+      "language": "de",
+      "title": "Warum Schweizer Ärzte zu lokaler KI-Diktation wechseln",
+      "body_unchanged": true
+    },
+    {
+      "slug": "meta-muse-small-business-agent",
+      "language": "de",
+      "title": "Metas neuer KI-Agent für kleine Unternehmen: einen Versuch wert?",
+      "body_unchanged": true
+    },
+    {
+      "slug": "microsoft-copilot-swiss-teams",
+      "language": "de",
+      "title": "Microsoft Copilot für Schweizer Teams: Klein starten, früh profitieren",
+      "body_unchanged": true
+    },
+    {
+      "slug": "monthly-client-newsletter",
+      "language": "de",
+      "title": "Bei deinen Kunden in Erinnerung bleiben: eine KI-Routine für den monatlichen Newsletter",
+      "body_unchanged": true
+    },
+    {
+      "slug": "monthly-state-of-business-summary",
+      "language": "de",
+      "title": "Wissen, wo Ihr Geschäft steht &mdash; jeden Monat",
+      "body_unchanged": true
+    },
+    {
+      "slug": "multilingual-client-letters",
+      "language": "de",
+      "title": "Schreiben in der Sprache deiner Kunden: KI für Briefe auf Deutsch, Französisch und Englisch",
+      "body_unchanged": true
+    },
+    {
+      "slug": "nanoclaw-whatsapp-ai-assistant",
+      "language": "de",
+      "title": "NanoClaw: ein KI-Assistent für WhatsApp, der nur seine eigenen Gespräche sieht",
+      "body_unchanged": true
+    },
+    {
+      "slug": "never-miss-a-deadline",
+      "language": "de",
+      "title": "Nie wieder eine Frist verpassen: Eine KI-Routine für rechtliche und steuerliche Termine",
+      "body_unchanged": true
+    },
+    {
+      "slug": "notary-workflow",
+      "language": "de",
+      "title": "Wie Schweizer Notare die Zeit für die Dokumentenerstellung um 80% reduzieren können",
+      "body_unchanged": true
+    },
+    {
+      "slug": "octop-self-hosted-ai",
+      "language": "de",
+      "title": "Octop: Eine KI-Assistentin, die auf Ihrem eigenen Computer läuft",
+      "body_unchanged": true
+    },
+    {
+      "slug": "one-ai-for-the-whole-office",
+      "language": "de",
+      "title": "Eine KI fürs ganze Büro: ein privater Assistent für jedes Teammitglied",
+      "body_unchanged": true
+    },
+    {
+      "slug": "one-page-ai-policy",
+      "language": "de",
+      "title": "Deine KI-Richtlinie auf einer Seite: Klare Regeln für Notariat, Treuhand und Praxis",
+      "body_unchanged": true
+    },
+    {
+      "slug": "open-offers-follow-up",
+      "language": "de",
+      "title": "Keine Offerte geht vergessen: eine KI-Routine zum Nachfassen offener Offerten",
+      "body_unchanged": true
+    },
+    {
+      "slug": "opendots-ai-coworker-small-office",
+      "language": "de",
+      "title": "OpenDots: ein KI-Kollege fürs Kleinbüro — was zuerst zu prüfen ist",
+      "body_unchanged": true
+    },
+    {
+      "slug": "payroll-lohnausweis-routine",
+      "language": "de",
+      "title": "Von der Lohnabrechnung zum Lohnausweis: Eine KI-Routine für Lohn und Sozialversicherungen",
+      "body_unchanged": true
+    },
+    {
+      "slug": "pdfcraft-offline-pdf-editor",
+      "language": "de",
+      "title": "PdfCraft: ein kostenloser PDF-Editor, der Ihre Dateien auf dem eigenen Rechner behält",
+      "body_unchanged": true
+    },
+    {
+      "slug": "phone-calls-voicemails",
+      "language": "de",
+      "title": "Vom Telefonat zur Pendenzenliste: Eine KI-Routine für Anrufe und Combox",
+      "body_unchanged": true
+    },
+    {
+      "slug": "plain-language-client-explanations",
+      "language": "de",
+      "title": "Erklärungen, die deine Kunden wirklich versteht: Eine KI-Routine für verständliche Auskünfte",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ppt-master-client-proposal-presentations",
+      "language": "de",
+      "title": "PPT Master für Kundenangebote: Dokumente in bearbeitbare Folien verwandeln",
+      "body_unchanged": true
+    },
+    {
+      "slug": "preparing-tax-return-ai",
+      "language": "de",
+      "title": "Die Steuererklärung vorbereiten: Eine KI-Routine für Selbständige und KMU",
+      "body_unchanged": true
+    },
+    {
+      "slug": "quarterly-vat-statement",
+      "language": "de",
+      "title": "Die Mehrwertsteuer-Abrechnung: Eine KI-Routine für Selbständige und KMU",
+      "body_unchanged": true
+    },
+    {
+      "slug": "recurring-email-replies",
+      "language": "de",
+      "title": "Antworten, die nach dir klingen: Eine KI-Routine für deine wiederkehrenden E-Mails",
+      "body_unchanged": true
+    },
+    {
+      "slug": "regulatory-changes-routine",
+      "language": "de",
+      "title": "Neue Regeln ohne Stress: Eine KI-Routine für Kreisschreiben, Gesetze und Fristen",
+      "body_unchanged": true
+    },
+    {
+      "slug": "safe-ai-agents-swiss-smes",
+      "language": "de",
+      "title": "Sichere KI-Agenten für Ihr Schweizer Unternehmen: Eine verständliche Sicherheits-Checkliste",
+      "body_unchanged": true
+    },
+    {
+      "slug": "skillspector-ai-security-scanner",
+      "language": "de",
+      "title": "SkillSpector: ein kostenloser Scanner, der KI-Erweiterungen prüft, bevor Sie sie installieren",
+      "body_unchanged": true
+    },
+    {
+      "slug": "standard-office-processes-ai",
+      "language": "de",
+      "title": "Einmal aufschreiben, immer wieder nutzen: Eine KI-Routine für deine Standardabläufe",
+      "body_unchanged": true
+    },
+    {
+      "slug": "swiss-data-protection-act-ai",
+      "language": "de",
+      "title": "KI und das DSG: Was Selbständige und KMU wissen müssen",
+      "body_unchanged": true
+    },
+    {
+      "slug": "swiss-qr-bill-invoices",
+      "language": "de",
+      "title": "Die QR-Rechnung ohne Fehler: Eine KI-Routine für deine Rechnungen",
+      "body_unchanged": true
+    },
+    {
+      "slug": "tidy-client-contact-list",
+      "language": "de",
+      "title": "Kundendaten aufräumen, Fehler vermeiden: Eine KI-Routine für deine Adressliste",
+      "body_unchanged": true
+    },
+    {
+      "slug": "time-tracking-invoicing",
+      "language": "de",
+      "title": "Von der Zeiterfassung zur Rechnung: eine Monatsroutine mit KI für kleine Schweizer Büros",
+      "body_unchanged": true
+    },
+    {
+      "slug": "track-software-subscriptions-ai",
+      "language": "de",
+      "title": "Alle Software-Abos im Blick &mdash; ohne Tabellenchaos",
+      "body_unchanged": true
+    },
+    {
+      "slug": "weekly-pendenzen-review",
+      "language": "de",
+      "title": "Die wöchentliche Pendenzen-Runde: 20 Minuten für eine klare Woche",
+      "body_unchanged": true
+    },
+    {
+      "slug": "what-ai-actually-costs",
+      "language": "de",
+      "title": "Was KI wirklich kostet: Ein transparenter Leitfaden für Selbständige und KMU",
+      "body_unchanged": true
+    },
+    {
+      "slug": "whatsapp-email-crm",
+      "language": "de",
+      "title": "Wie Selbständige WhatsApp- und E-Mail-Anfragen in ein einfaches CRM verwandeln",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-agenten-fuer-schweizer-kmu",
+      "language": "fr",
+      "title": "Comment les indépendants peuvent transformer les demandes WhatsApp et e-mail en un simple CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-agents-reality-check",
+      "language": "fr",
+      "title": "Agents IA : ce qui fonctionne vraiment (et ce qui reste du buzz)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-assistant-on-your-own-computer",
+      "language": "fr",
+      "title": "Votre propre assistant IA sur votre propre ordinateur : des données clients qui restent avec vous",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-bookkeeping-self-employed",
+      "language": "fr",
+      "title": "Comptabilité assistée par IA pour indépendants: justificatifs, rappels, suggestions de comptabilisation",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-bookkeeping-whats-real",
+      "language": "fr",
+      "title": "Comptabilité par IA pour indépendants suisses : qu’est-ce qui fonctionne vraiment ?",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-checks-ai-work",
+      "language": "fr",
+      "title": "Une deuxième IA qui vérifie la première : repérer les erreurs avant d'envoyer",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-document-search-without-vectors",
+      "language": "fr",
+      "title": "Tout retrouver dans vos documents : la recherche IA sans lourdeur technique",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-for-swiss-smes-where-to-start",
+      "language": "fr",
+      "title": "L'IA pour les PME suisses : par où vraiment commencer (sans battage)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-inbox-sorting-small-offices",
+      "language": "fr",
+      "title": "Trier sa boîte de réception avec l'IA: un flux quotidien pour les petits bureaux suisses",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-market-research-solo-business",
+      "language": "fr",
+      "title": "Étude de marché avec l’IA pour les indépendants : méthode pratique",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-prompts-office-german",
+      "language": "fr",
+      "title": "10 prompts IA en allemand pour le bureau (prêts à copier-coller)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-proofreading-offers-letters",
+      "language": "fr",
+      "title": "Une deuxième paire d'yeux: la relecture IA pour les offres, factures et courriers",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-routine-client-thank-you-note",
+      "language": "fr",
+      "title": "Un merci qui reste : une routine IA pour des notes de remerciement chaleureuses",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-routine-tidy-file-names",
+      "language": "fr",
+      "title": "Des fichiers rangés, tout retrouvé : une routine IA pour nommer et classer vos documents",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-that-reads-your-company-documents",
+      "language": "fr",
+      "title": "Une IA qui lit les documents de votre entreprise — sur votre propre ordinateur",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-written-job-applications",
+      "language": "fr",
+      "title": "Candidatures rédigées par l’IA : comment les petites entreprises suisses devraient recruter",
+      "body_unchanged": true
+    },
+    {
+      "slug": "aml-paperwork-fiduciaries-notaries",
+      "language": "fr",
+      "title": "La conformité LBA sans corvée: une routine IA pour fiduciaires et notaires",
+      "body_unchanged": true
+    },
+    {
+      "slug": "announcing-price-changes",
+      "language": "fr",
+      "title": "Augmenter vos tarifs avec élégance : une routine IA pour annoncer un changement de prix",
+      "body_unchanged": true
+    },
+    {
+      "slug": "answering-reviews-calmly",
+      "language": "fr",
+      "title": "Répondre avec assurance aux avis et retours clients: une routine IA simple pour les PME suisses",
+      "body_unchanged": true
+    },
+    {
+      "slug": "audit-revision-preparation",
+      "language": "fr",
+      "title": "Préparer la révision: une routine IA pour PME et fiduciaires",
+      "body_unchanged": true
+    },
+    {
+      "slug": "automatisierung-selbststaendige",
+      "language": "fr",
+      "title": "Automatiser son activité indépendante : cinq tâches à déléguer d’abord",
+      "body_unchanged": true
+    },
+    {
+      "slug": "chatgpt-schweiz",
+      "language": "fr",
+      "title": "ChatGPT pour les entreprises suisses : premiers outils et flux de travail rentables",
+      "body_unchanged": true
+    },
+    {
+      "slug": "claude-knowledge-work-plugins",
+      "language": "fr",
+      "title": "Knowledge Work Plugins : des assistants IA avec une fiche de poste",
+      "body_unchanged": true
+    },
+    {
+      "slug": "clean-faq-page-ai-routine",
+      "language": "fr",
+      "title": "Une page FAQ claire, construite question par question",
+      "body_unchanged": true
+    },
+    {
+      "slug": "clear-service-descriptions",
+      "language": "fr",
+      "title": "Décrire clairement vos services : une routine IA pour expliquer ce que vous faites",
+      "body_unchanged": true
+    },
+    {
+      "slug": "client-intake-workflow",
+      "language": "fr",
+      "title": "Du premier contact à la première facture: un accueil client grâce à l'IA",
+      "body_unchanged": true
+    },
+    {
+      "slug": "client-meeting-prep",
+      "language": "fr",
+      "title": "La page de préparation client: une routine IA avant chaque rendez-vous",
+      "body_unchanged": true
+    },
+    {
+      "slug": "client-reports-ai",
+      "language": "fr",
+      "title": "Des rapports clients qu'on lit vraiment: une routine IA pour les fiduciaires, les cabinets médicaux et les études de notaires",
+      "body_unchanged": true
+    },
+    {
+      "slug": "comparing-supplier-offers",
+      "language": "fr",
+      "title": "Comparer des offres sans hésiter : une routine IA pour choisir le bon prestataire",
+      "body_unchanged": true
+    },
+    {
+      "slug": "competitor-pricing-ai-routine",
+      "language": "fr",
+      "title": "Transformer les tarifs des concurrents en une comparaison simple",
+      "body_unchanged": true
+    },
+    {
+      "slug": "compositor-image-editor-small-business",
+      "language": "fr",
+      "title": "Compositor : une alternative gratuite à Photoshop pour les visuels des petites entreprises",
+      "body_unchanged": true
+    },
+    {
+      "slug": "contract-review-before-signing",
+      "language": "fr",
+      "title": "Lire les petits caractères: une routine IA pour vérifier les contrats avant de signer",
+      "body_unchanged": true
+    },
+    {
+      "slug": "difficult-client-conversations",
+      "language": "fr",
+      "title": "Dire les choses difficiles avec calme : une routine IA pour les conversations délicates avec les clients",
+      "body_unchanged": true
+    },
+    {
+      "slug": "digitising-paper-archive",
+      "language": "fr",
+      "title": "Retrouver chaque document en quelques secondes: numériser son archive papier avec l'IA",
+      "body_unchanged": true
+    },
+    {
+      "slug": "document-summaries-plain-language",
+      "language": "fr",
+      "title": "Comprendre chaque document: une routine IA pour les contrats et courriers officiels",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ds4-local-ai-engine",
+      "language": "fr",
+      "title": "Exécution d'IA de pointe en local : le moteur DS4 et ce qu'il signifie pour les PME suisses",
+      "body_unchanged": true
+    },
+    {
+      "slug": "end-your-day-in-peace",
+      "language": "fr",
+      "title": "Terminer ta journée en paix : une routine IA de cinq minutes pour te vider la tête",
+      "body_unchanged": true
+    },
+    {
+      "slug": "fewer-missed-appointments",
+      "language": "fr",
+      "title": "Moins de rendez-vous manqués: une routine IA pour les rappels et les reports",
+      "body_unchanged": true
+    },
+    {
+      "slug": "filee-offline-file-converter",
+      "language": "fr",
+      "title": "Filee : un convertisseur gratuit qui n'envoie jamais vos fichiers en ligne",
+      "body_unchanged": true
+    },
+    {
+      "slug": "find-your-first-ai-task",
+      "language": "fr",
+      "title": "Trouver ta première tâche IA : un bilan d'une semaine pour voir où passe vraiment ton temps",
+      "body_unchanged": true
+    },
+    {
+      "slug": "freelance-proposals",
+      "language": "fr",
+      "title": "Automatisation des offres de conseil pour les indépendant·e·s",
+      "body_unchanged": true
+    },
+    {
+      "slug": "friendly-payment-reminders",
+      "language": "fr",
+      "title": "Être payé à temps: des relances de paiement grâce à l'IA",
+      "body_unchanged": true
+    },
+    {
+      "slug": "friendly-whatsapp-replies-ai-routine",
+      "language": "fr",
+      "title": "Des réponses WhatsApp courtes et amicales qui vous font gagner du temps",
+      "body_unchanged": true
+    },
+    {
+      "slug": "gridcraft-open-source-excel-alternative",
+      "language": "fr",
+      "title": "GridCraft : un tableur gratuit et compatible Excel que votre IA peut piloter",
+      "body_unchanged": true
+    },
+    {
+      "slug": "holiday-out-of-office",
+      "language": "fr",
+      "title": "Prendre de vraies vacances: une routine IA pour tes absences",
+      "body_unchanged": true
+    },
+    {
+      "slug": "incoming-mail-routine",
+      "language": "fr",
+      "title": "Trier le courrier du jour: une routine IA pour le courrier entrant",
+      "body_unchanged": true
+    },
+    {
+      "slug": "jev-ai-reply-assistant-whatsapp",
+      "language": "fr",
+      "title": "Jev : une IA qui lit le climat avant que vous répondiez",
+      "body_unchanged": true
+    },
+    {
+      "slug": "job-posting-ai-routine",
+      "language": "fr",
+      "title": "Rédiger une offre d’emploi juste en quelques minutes",
+      "body_unchanged": true
+    },
+    {
+      "slug": "job-references-ai",
+      "language": "fr",
+      "title": "Rédiger le certificat de travail: une routine IA pour les employeurs",
+      "body_unchanged": true
+    },
+    {
+      "slug": "kev-classification-open-source-api",
+      "language": "fr",
+      "title": "Kev: API de Classification Open-Source pour les PME Suisses — Routage de Tickets, Documents & Décisions Sans API Payantes",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-agenten-schweiz",
+      "language": "fr",
+      "title": "Ce que les agents IA peuvent faire pour une petite entreprise suisse – et ce qu’ils ne peuvent pas faire",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-angebote",
+      "language": "fr",
+      "title": "Des offres qui concluent vraiment : une méthode IA pour vos propositions",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-daten-export",
+      "language": "fr",
+      "title": "Éviter le lock-in des outils d’IA : garder vos données portables",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-einzelfirma",
+      "language": "fr",
+      "title": "L'IA pour l'entreprise individuelle : un plan de 30 jours pour les indépendants suisses",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-fuer-kmu",
+      "language": "fr",
+      "title": "L'IA pour les PME suisses: par où commencer vraiment (pas de hype)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-grenzen",
+      "language": "fr",
+      "title": "Là où l’IA échoue encore : un guide honnête pour les PME suisses",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-kundenbriefe",
+      "language": "fr",
+      "title": "Des courriers clients qui vous ressemblent : une méthode pratique avec l’IA",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-meeting-notizen",
+      "language": "fr",
+      "title": "Des notes de réunion aux actions : une routine IA pour indépendants",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-modell-wahl",
+      "language": "fr",
+      "title": "GPT, Claude ou local ? Choisir le bon modèle d'IA pour votre PME suisse",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-social-media",
+      "language": "fr",
+      "title": "Des contenus pour les réseaux sociaux qui ne sonnent pas comme l’IA : une routine pratique pour les PME suisses",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-steuererklaerung",
+      "language": "fr",
+      "title": "L'IA et ta déclaration d'impôts : ce qu'elle fait bien (et ce qu'elle ne peut pas faire)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-tools-vergleich",
+      "language": "fr",
+      "title": "Les seuls outils d’IA dont une PME suisse a besoin en 2026",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-zeit-sparen",
+      "language": "fr",
+      "title": "Les 10 heures par semaine que l’IA peut rendre à un freelance suisse",
+      "body_unchanged": true
+    },
+    {
+      "slug": "knowledge-base-emails",
+      "language": "fr",
+      "title": "Créer une base de connaissances à partir d'anciens courriels",
+      "body_unchanged": true
+    },
+    {
+      "slug": "lightcraft-private-client-photos-small-business",
+      "language": "fr",
+      "title": "LightCraft pour les PME suisses : retoucher des photos clients sur son ordinateur",
+      "body_unchanged": true
+    },
+    {
+      "slug": "local-ai-on-your-laptop",
+      "language": "fr",
+      "title": "L'IA locale sur ton ordinateur: un guide pour les cabinets suisses",
+      "body_unchanged": true
+    },
+    {
+      "slug": "manager-meeting-summaries",
+      "language": "fr",
+      "title": "Le guide du manager pour les résumés de réunions par IA",
+      "body_unchanged": true
+    },
+    {
+      "slug": "medical-transcription",
+      "language": "fr",
+      "title": "Pourquoi les médecins suisses passent à la dictée IA locale",
+      "body_unchanged": true
+    },
+    {
+      "slug": "meta-muse-small-business-agent",
+      "language": "fr",
+      "title": "Le nouvel agent IA de Meta pour les petites entreprises : vaut-il un essai ?",
+      "body_unchanged": true
+    },
+    {
+      "slug": "microsoft-copilot-swiss-teams",
+      "language": "fr",
+      "title": "Microsoft Copilot pour les équipes suisses: commencer petit, gagner tôt",
+      "body_unchanged": true
+    },
+    {
+      "slug": "monthly-client-newsletter",
+      "language": "fr",
+      "title": "Rester présent auprès de tes clients: une routine IA pour ta lettre d'information mensuelle",
+      "body_unchanged": true
+    },
+    {
+      "slug": "monthly-state-of-business-summary",
+      "language": "fr",
+      "title": "Savoir où en est votre activité, chaque mois",
+      "body_unchanged": true
+    },
+    {
+      "slug": "multilingual-client-letters",
+      "language": "fr",
+      "title": "Écrire dans la langue de tes clients: une IA pour les courriers en allemand, français et anglais",
+      "body_unchanged": true
+    },
+    {
+      "slug": "nanoclaw-whatsapp-ai-assistant",
+      "language": "fr",
+      "title": "NanoClaw : un assistant IA pour WhatsApp qui ne voit que ses propres conversations",
+      "body_unchanged": true
+    },
+    {
+      "slug": "never-miss-a-deadline",
+      "language": "fr",
+      "title": "Ne plus jamais manquer une échéance: une routine IA pour les dates légales et fiscales",
+      "body_unchanged": true
+    },
+    {
+      "slug": "notary-workflow",
+      "language": "fr",
+      "title": "Comment les notaires suisses peuvent réduire de 80 % le temps de création de documents",
+      "body_unchanged": true
+    },
+    {
+      "slug": "octop-self-hosted-ai",
+      "language": "fr",
+      "title": "Octop : Une assistante IA qui s'exécute sur votre propre ordinateur",
+      "body_unchanged": true
+    },
+    {
+      "slug": "one-ai-for-the-whole-office",
+      "language": "fr",
+      "title": "Une IA pour tout le bureau : un assistant privé pour chaque membre de l'équipe",
+      "body_unchanged": true
+    },
+    {
+      "slug": "one-page-ai-policy",
+      "language": "fr",
+      "title": "Ta politique IA sur une page: des règles claires pour notaire, fiduciaire et cabinet médical",
+      "body_unchanged": true
+    },
+    {
+      "slug": "open-offers-follow-up",
+      "language": "fr",
+      "title": "Ne laisse plus une offre s'endormir: une routine IA pour relancer tes offres en attente",
+      "body_unchanged": true
+    },
+    {
+      "slug": "opendots-ai-coworker-small-office",
+      "language": "fr",
+      "title": "OpenDots : un collègue IA pour les petits bureaux — les vérifications essentielles",
+      "body_unchanged": true
+    },
+    {
+      "slug": "payroll-lohnausweis-routine",
+      "language": "fr",
+      "title": "Du décompte de salaire au certificat de salaire: une routine IA pour la paie et les assurances sociales",
+      "body_unchanged": true
+    },
+    {
+      "slug": "pdfcraft-offline-pdf-editor",
+      "language": "fr",
+      "title": "PdfCraft : un éditeur PDF gratuit qui garde vos fichiers sur votre ordinateur",
+      "body_unchanged": true
+    },
+    {
+      "slug": "phone-calls-voicemails",
+      "language": "fr",
+      "title": "De l'appel au suivi: une routine IA pour les appels et les messages",
+      "body_unchanged": true
+    },
+    {
+      "slug": "plain-language-client-explanations",
+      "language": "fr",
+      "title": "Des explications que tes clients comprennent vraiment : une routine IA pour des conseils en langage clair",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ppt-master-client-proposal-presentations",
+      "language": "fr",
+      "title": "PPT Master pour les offres clients : des documents aux diapositives modifiables",
+      "body_unchanged": true
+    },
+    {
+      "slug": "preparing-tax-return-ai",
+      "language": "fr",
+      "title": "Préparer ta déclaration d'impôts: une routine IA pour les indépendants et les PME",
+      "body_unchanged": true
+    },
+    {
+      "slug": "quarterly-vat-statement",
+      "language": "fr",
+      "title": "Remplir ton décompte TVA: une routine IA pour les indépendants et les PME suisses",
+      "body_unchanged": true
+    },
+    {
+      "slug": "recurring-email-replies",
+      "language": "fr",
+      "title": "Des réponses qui te ressemblent: une routine IA pour tes e-mails récurrents",
+      "body_unchanged": true
+    },
+    {
+      "slug": "regulatory-changes-routine",
+      "language": "fr",
+      "title": "Nouvelles règles sans stress : une routine IA pour circulaires, lois et délais",
+      "body_unchanged": true
+    },
+    {
+      "slug": "safe-ai-agents-swiss-smes",
+      "language": "fr",
+      "title": "Des agents IA sûrs pour votre entreprise suisse : une checklist sécurité en clair",
+      "body_unchanged": true
+    },
+    {
+      "slug": "skillspector-ai-security-scanner",
+      "language": "fr",
+      "title": "SkillSpector : un scanner gratuit qui vérifie les extensions IA avant l'installation",
+      "body_unchanged": true
+    },
+    {
+      "slug": "standard-office-processes-ai",
+      "language": "fr",
+      "title": "L'écrire une bonne fois : une routine IA pour tes processus standard",
+      "body_unchanged": true
+    },
+    {
+      "slug": "swiss-data-protection-act-ai",
+      "language": "fr",
+      "title": "L'IA et la LPD: ce que les indépendants et les PME doivent savoir",
+      "body_unchanged": true
+    },
+    {
+      "slug": "swiss-qr-bill-invoices",
+      "language": "fr",
+      "title": "La facture QR sans erreurs: une routine IA pour tes factures",
+      "body_unchanged": true
+    },
+    {
+      "slug": "tidy-client-contact-list",
+      "language": "fr",
+      "title": "Des données clients propres, moins d'erreurs: une routine IA pour ton carnet d'adresses",
+      "body_unchanged": true
+    },
+    {
+      "slug": "time-tracking-invoicing",
+      "language": "fr",
+      "title": "De la saisie du temps à la facture: une routine mensuelle avec l'IA pour les petits bureaux suisses",
+      "body_unchanged": true
+    },
+    {
+      "slug": "track-software-subscriptions-ai",
+      "language": "fr",
+      "title": "Garder la vue sur tous vos abonnements logiciels",
+      "body_unchanged": true
+    },
+    {
+      "slug": "weekly-pendenzen-review",
+      "language": "fr",
+      "title": "La revue hebdomadaire des points ouverts: 20 minutes pour une semaine plus claire",
+      "body_unchanged": true
+    },
+    {
+      "slug": "what-ai-actually-costs",
+      "language": "fr",
+      "title": "Ce que l'IA coûte vraiment: un guide transparent pour les indépendant·e·s et les PME",
+      "body_unchanged": true
+    },
+    {
+      "slug": "whatsapp-email-crm",
+      "language": "fr",
+      "title": "Comment les indépendants peuvent transformer les demandes WhatsApp et e-mail en un simple CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-agenten-fuer-schweizer-kmu",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-agents-reality-check",
+      "language": "it",
+      "title": "Agenti IA: cosa funziona davvero (e cosa è ancora hype)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-assistant-on-your-own-computer",
+      "language": "it",
+      "title": "Il tuo assistente IA sul tuo computer: i dati dei clienti restano con te",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-bookkeeping-self-employed",
+      "language": "it",
+      "title": "Contabilità con l'IA per indipendenti: ricevute, solleciti, suggerimenti di registrazione",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-bookkeeping-whats-real",
+      "language": "it",
+      "title": "AI Bookkeeping for Swiss Self-Employed: What’s Real",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-checks-ai-work",
+      "language": "it",
+      "title": "Una seconda IA che controlla la prima: trovare gli errori prima di inviare",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-document-search-without-vectors",
+      "language": "it",
+      "title": "Trova tutto nei tuoi documenti: ricerca IA senza configurazione tecnica",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-for-swiss-smes-where-to-start",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-inbox-sorting-small-offices",
+      "language": "it",
+      "title": "Ordina la tua casella di posta con l'IA: un flusso di lavoro quotidiano per piccoli studi svizzeri",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-market-research-solo-business",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-prompts-office-german",
+      "language": "it",
+      "title": "10 prompt IA in tedesco per l'ufficio (pronti da copiare e incollare)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-proofreading-offers-letters",
+      "language": "it",
+      "title": "Un secondo paio d'occhi: correzione IA per offerte, fatture e lettere",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-routine-client-thank-you-note",
+      "language": "it",
+      "title": "Un biglietto che ricorderanno: una routine IA per un caldo ringraziamento al cliente",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-routine-tidy-file-names",
+      "language": "it",
+      "title": "File ordinati, trovati in fretta: una routine IA per nominare e ordinare i file digitali",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-that-reads-your-company-documents",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ai-written-job-applications",
+      "language": "it",
+      "title": "AI-Written Job Applications: How Small Swiss Businesses Should Hire Now",
+      "body_unchanged": true
+    },
+    {
+      "slug": "aml-paperwork-fiduciaries-notaries",
+      "language": "it",
+      "title": "Pratiche AML senza fatica: una routine con l'IA per fiduciari e notai",
+      "body_unchanged": true
+    },
+    {
+      "slug": "announcing-price-changes",
+      "language": "it",
+      "title": "Aumentare i prezzi con garbo: una routine con l'IA per annunciare un cambio di prezzo",
+      "body_unchanged": true
+    },
+    {
+      "slug": "answering-reviews-calmly",
+      "language": "it",
+      "title": "Rispondere alle recensioni e ai feedback dei clienti con sicurezza: una semplice routine con l'IA per le PMI svizzere",
+      "body_unchanged": true
+    },
+    {
+      "slug": "audit-revision-preparation",
+      "language": "it",
+      "title": "Prepararsi alla revisione svizzera: una routine con l'IA per PMI e fiduciari",
+      "body_unchanged": true
+    },
+    {
+      "slug": "automatisierung-selbststaendige",
+      "language": "it",
+      "title": "Automation for Self-Employed: 5 Tasks to Hand Off First",
+      "body_unchanged": true
+    },
+    {
+      "slug": "chatgpt-schweiz",
+      "language": "it",
+      "title": "ChatGPT for Swiss Companies: First Tools and Workflows That Pay Off",
+      "body_unchanged": true
+    },
+    {
+      "slug": "claude-knowledge-work-plugins",
+      "language": "it",
+      "title": "Knowledge Work Plugins: AI Assistants With a Job Description",
+      "body_unchanged": true
+    },
+    {
+      "slug": "clean-faq-page-ai-routine",
+      "language": "it",
+      "title": "Una pagina FAQ pulita, costruita una domanda alla volta",
+      "body_unchanged": true
+    },
+    {
+      "slug": "clear-service-descriptions",
+      "language": "it",
+      "title": "Descrizioni dei servizi chiare: una routine con l'IA per spiegare cosa fai",
+      "body_unchanged": true
+    },
+    {
+      "slug": "client-intake-workflow",
+      "language": "it",
+      "title": "Dal primo contatto alla prima fattura: un flusso di onboarding clienti con l'IA",
+      "body_unchanged": true
+    },
+    {
+      "slug": "client-meeting-prep",
+      "language": "it",
+      "title": "Il briefing cliente in una pagina: preparazione con l'IA prima di ogni incontro",
+      "body_unchanged": true
+    },
+    {
+      "slug": "client-reports-ai",
+      "language": "it",
+      "title": "Report per clienti che le persone leggono davvero: una routine con l'IA per fiduciari, medici e notai",
+      "body_unchanged": true
+    },
+    {
+      "slug": "comparing-supplier-offers",
+      "language": "it",
+      "title": "Confrontare le offerte senza tirare a indovinare: una routine con l'IA per scegliere il fornitore giusto",
+      "body_unchanged": true
+    },
+    {
+      "slug": "competitor-pricing-ai-routine",
+      "language": "it",
+      "title": "Trasforma i prezzi dei concorrenti in un confronto semplice",
+      "body_unchanged": true
+    },
+    {
+      "slug": "compositor-image-editor-small-business",
+      "language": "it",
+      "title": "Compositor: A Free Photoshop Alternative for Small-Business Images",
+      "body_unchanged": true
+    },
+    {
+      "slug": "contract-review-before-signing",
+      "language": "it",
+      "title": "Leggere le clausole in piccolo: una routine di IA per controllare i contratti prima di firmare",
+      "body_unchanged": true
+    },
+    {
+      "slug": "difficult-client-conversations",
+      "language": "it",
+      "title": "Dire le cose difficili con calma: una routine di IA per le conversazioni difficili con i clienti",
+      "body_unchanged": true
+    },
+    {
+      "slug": "digitising-paper-archive",
+      "language": "it",
+      "title": "Trova qualsiasi documento in pochi secondi: una routine di IA per digitalizzare il tuo archivio cartaceo",
+      "body_unchanged": true
+    },
+    {
+      "slug": "document-summaries-plain-language",
+      "language": "it",
+      "title": "Capire ogni documento: una routine di IA per contratti e lettere ufficiali",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ds4-local-ai-engine",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "end-your-day-in-peace",
+      "language": "it",
+      "title": "Concludi la giornata lavorativa in pace: una routine di IA di cinque minuti per schiarirti le idee",
+      "body_unchanged": true
+    },
+    {
+      "slug": "fewer-missed-appointments",
+      "language": "it",
+      "title": "Meno appuntamenti mancati: una routine di IA per promemoria e riprogrammazioni",
+      "body_unchanged": true
+    },
+    {
+      "slug": "filee-offline-file-converter",
+      "language": "it",
+      "title": "Filee: A Free File Converter That Never Uploads Your Files",
+      "body_unchanged": true
+    },
+    {
+      "slug": "find-your-first-ai-task",
+      "language": "it",
+      "title": "Trova il tuo primo compito per l'IA: un audit di una settimana su dove va davvero il tuo tempo",
+      "body_unchanged": true
+    },
+    {
+      "slug": "freelance-proposals",
+      "language": "it",
+      "title": "Automatizzare le proposte di consulenza per i freelance",
+      "body_unchanged": true
+    },
+    {
+      "slug": "friendly-payment-reminders",
+      "language": "it",
+      "title": "Essere pagati in tempo: una routine di IA per solleciti di pagamento cortesi",
+      "body_unchanged": true
+    },
+    {
+      "slug": "friendly-whatsapp-replies-ai-routine",
+      "language": "it",
+      "title": "Risposte WhatsApp brevi e cordiali che ti fanno risparmiare tempo",
+      "body_unchanged": true
+    },
+    {
+      "slug": "gridcraft-open-source-excel-alternative",
+      "language": "it",
+      "title": "GridCraft: A Free, Excel-Compatible Spreadsheet Your AI Can Operate",
+      "body_unchanged": true
+    },
+    {
+      "slug": "holiday-out-of-office",
+      "language": "it",
+      "title": "Prenditi una vera vacanza: una routine con l'IA per la tua risposta di assenza",
+      "body_unchanged": true
+    },
+    {
+      "slug": "incoming-mail-routine",
+      "language": "it",
+      "title": "Ordinare la posta del giorno: una routine con l'IA per le lettere in arrivo",
+      "body_unchanged": true
+    },
+    {
+      "slug": "jev-ai-reply-assistant-whatsapp",
+      "language": "it",
+      "title": "Jev: An AI That Reads the Room Before You Reply",
+      "body_unchanged": true
+    },
+    {
+      "slug": "job-posting-ai-routine",
+      "language": "it",
+      "title": "Scrivi un annuncio di lavoro equo in pochi minuti",
+      "body_unchanged": true
+    },
+    {
+      "slug": "job-references-ai",
+      "language": "it",
+      "title": "Scrivere il certificato di lavoro svizzero: una routine con l'IA per i datori di lavoro",
+      "body_unchanged": true
+    },
+    {
+      "slug": "kev-classification-open-source-api",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-agenten-schweiz",
+      "language": "it",
+      "title": "What AI Agents Can and Can’t Do for a Swiss Small Business",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-angebote",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-daten-export",
+      "language": "it",
+      "title": "Avoiding AI Vendor Lock-in: Keeping Your Business Data Portable",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-einzelfirma",
+      "language": "it",
+      "title": "AI for a One-Person Business: A 30-Day Starter Plan for Swiss Solo Self-Employed",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-fuer-kmu",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-grenzen",
+      "language": "it",
+      "title": "Where AI Still Fails: An Honest Guide for Swiss SMEs",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-kundenbriefe",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-meeting-notizen",
+      "language": "it",
+      "title": "Turning Meeting Notes Into Action Items: An AI Routine for Swiss Self-Employed",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-modell-wahl",
+      "language": "it",
+      "title": "GPT, Claude or Local? Choosing an AI Model for Your Swiss Business",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-social-media",
+      "language": "it",
+      "title": "Social Media Content That Doesn't Sound Like AI: A Practical Routine for Swiss SMEs",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-steuererklaerung",
+      "language": "it",
+      "title": "AI for Your Swiss Tax Return: What It Helps With (and What It Can’t)",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-tools-vergleich",
+      "language": "it",
+      "title": "The Only AI Tools a Swiss SME Needs in 2026",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ki-zeit-sparen",
+      "language": "it",
+      "title": "The 10 Hours a Week AI Can Give Back to a Swiss Freelancer",
+      "body_unchanged": true
+    },
+    {
+      "slug": "knowledge-base-emails",
+      "language": "it",
+      "title": "Costruire una base di conoscenza dalle vecchie email",
+      "body_unchanged": true
+    },
+    {
+      "slug": "lightcraft-private-client-photos-small-business",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "local-ai-on-your-laptop",
+      "language": "it",
+      "title": "IA locale sul tuo portatile: una guida per principianti per gli studi svizzeri",
+      "body_unchanged": true
+    },
+    {
+      "slug": "manager-meeting-summaries",
+      "language": "it",
+      "title": "La guida del manager ai riassunti IA delle riunioni",
+      "body_unchanged": true
+    },
+    {
+      "slug": "medical-transcription",
+      "language": "it",
+      "title": "Perché i medici svizzeri passano alla dettatura IA locale",
+      "body_unchanged": true
+    },
+    {
+      "slug": "meta-muse-small-business-agent",
+      "language": "it",
+      "title": "Il nuovo agente IA di Meta per le piccole imprese: vale la pena provarlo?",
+      "body_unchanged": true
+    },
+    {
+      "slug": "microsoft-copilot-swiss-teams",
+      "language": "it",
+      "title": "Microsoft Copilot per i team svizzeri: parti in piccolo, vinci presto",
+      "body_unchanged": true
+    },
+    {
+      "slug": "monthly-client-newsletter",
+      "language": "it",
+      "title": "Resta nella mente dei clienti: una routine IA per la tua newsletter mensile",
+      "body_unchanged": true
+    },
+    {
+      "slug": "monthly-state-of-business-summary",
+      "language": "it",
+      "title": "Sapere ogni mese a che punto è la tua attività",
+      "body_unchanged": true
+    },
+    {
+      "slug": "multilingual-client-letters",
+      "language": "it",
+      "title": "Scrivere ai clienti nella loro lingua: IA per lettere in tedesco, francese e inglese",
+      "body_unchanged": true
+    },
+    {
+      "slug": "nanoclaw-whatsapp-ai-assistant",
+      "language": "it",
+      "title": "NanoClaw: A WhatsApp AI Assistant That Only Sees Its Own Conversations",
+      "body_unchanged": true
+    },
+    {
+      "slug": "never-miss-a-deadline",
+      "language": "it",
+      "title": "Non perdere mai una scadenza: una routine IA per le date legali e fiscali",
+      "body_unchanged": true
+    },
+    {
+      "slug": "notary-workflow",
+      "language": "it",
+      "title": "Come i notai svizzeri possono ridurre dell'80% il tempo di redazione dei documenti",
+      "body_unchanged": true
+    },
+    {
+      "slug": "octop-self-hosted-ai",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "one-ai-for-the-whole-office",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "one-page-ai-policy",
+      "language": "it",
+      "title": "La tua policy IA in una pagina: regole chiare per notai, fiduciari e medici",
+      "body_unchanged": true
+    },
+    {
+      "slug": "open-offers-follow-up",
+      "language": "it",
+      "title": "Non lasciare raffreddare un'offerta: una routine IA per seguire i preventivi aperti",
+      "body_unchanged": true
+    },
+    {
+      "slug": "opendots-ai-coworker-small-office",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    },
+    {
+      "slug": "payroll-lohnausweis-routine",
+      "language": "it",
+      "title": "Dalla busta paga al certificato di salario: una routine IA per libro paga e assicurazioni sociali",
+      "body_unchanged": true
+    },
+    {
+      "slug": "pdfcraft-offline-pdf-editor",
+      "language": "it",
+      "title": "PdfCraft: A Free PDF Editor That Keeps Your Files on Your Own Computer",
+      "body_unchanged": true
+    },
+    {
+      "slug": "phone-calls-voicemails",
+      "language": "it",
+      "title": "Dalla telefonata al follow-up: una routine IA per chiamate e segreteria telefonica",
+      "body_unchanged": true
+    },
+    {
+      "slug": "plain-language-client-explanations",
+      "language": "it",
+      "title": "Spiegazioni che i tuoi clienti capiscono davvero: una routine IA per consigli in linguaggio semplice",
+      "body_unchanged": true
+    },
+    {
+      "slug": "ppt-master-client-proposal-presentations",
+      "language": "it",
+      "title": "PPT Master per le proposte ai clienti: dai documenti a slide modificabili",
+      "body_unchanged": true
+    },
+    {
+      "slug": "preparing-tax-return-ai",
+      "language": "it",
+      "title": "Preparare la dichiarazione fiscale: una routine IA per indipendenti e PMI",
+      "body_unchanged": true
+    },
+    {
+      "slug": "quarterly-vat-statement",
+      "language": "it",
+      "title": "Compilare l'IVA trimestrale: una routine IA per indipendenti e PMI",
+      "body_unchanged": true
+    },
+    {
+      "slug": "recurring-email-replies",
+      "language": "it",
+      "title": "Risposte che suonano come te: una routine IA per le tue email ricorrenti",
+      "body_unchanged": true
+    },
+    {
+      "slug": "regulatory-changes-routine",
+      "language": "it",
+      "title": "Nuove regole senza stress: una routine IA per circolari, leggi e scadenze",
+      "body_unchanged": true
+    },
+    {
+      "slug": "safe-ai-agents-swiss-smes",
+      "language": "it",
+      "title": "Agenti IA sicuri per la tua azienda svizzera: una checklist di sicurezza in linguaggio semplice",
+      "body_unchanged": true
+    },
+    {
+      "slug": "skillspector-ai-security-scanner",
+      "language": "it",
+      "title": "SkillSpector: A Free Scanner That Checks AI Add-Ons Before You Install Them",
+      "body_unchanged": true
+    },
+    {
+      "slug": "standard-office-processes-ai",
+      "language": "it",
+      "title": "Scrivilo una volta sola: una routine IA per i tuoi processi d'ufficio standard",
+      "body_unchanged": true
+    },
+    {
+      "slug": "swiss-data-protection-act-ai",
+      "language": "it",
+      "title": "IA e Legge svizzera sulla protezione dei dati: cosa devono sapere indipendenti e PMI",
+      "body_unchanged": true
+    },
+    {
+      "slug": "swiss-qr-bill-invoices",
+      "language": "it",
+      "title": "La QR-fattura svizzera senza errori: una routine IA per le tue fatture",
+      "body_unchanged": true
+    },
+    {
+      "slug": "tidy-client-contact-list",
+      "language": "it",
+      "title": "Dati clienti ordinati, meno errori: una routine IA per la tua rubrica",
+      "body_unchanged": true
+    },
+    {
+      "slug": "time-tracking-invoicing",
+      "language": "it",
+      "title": "Dal timesheet alla fattura: una routine mensile con l'IA per i piccoli studi svizzeri",
+      "body_unchanged": true
+    },
+    {
+      "slug": "track-software-subscriptions-ai",
+      "language": "it",
+      "title": "Tieni traccia di ogni abbonamento software senza il foglio di calcolo",
+      "body_unchanged": true
+    },
+    {
+      "slug": "weekly-pendenzen-review",
+      "language": "it",
+      "title": "La revisione settimanale dei Pendenzen: 20 minuti per una settimana più chiara",
+      "body_unchanged": true
+    },
+    {
+      "slug": "what-ai-actually-costs",
+      "language": "it",
+      "title": "Quanto costa davvero l'IA: una guida trasparente per le aziende svizzere",
+      "body_unchanged": true
+    },
+    {
+      "slug": "whatsapp-email-crm",
+      "language": "it",
+      "title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM",
+      "body_unchanged": true
+    }
+  ]
+}

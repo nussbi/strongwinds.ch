@@ -1,118 +1,21 @@
-<!doctype html>
-<html lang="en">
-<head>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-58NQ8LPN');</script>
-<!-- End Google Tag Manager -->
- <meta charset="utf-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1" />
- <title>Running Frontier AI Locally: The DS4 Engine and What It Means for Swiss SMEs</title>
- <meta name="description" id="meta-description" content="Swiss SMEs can run powerful AI models locally on their own hardware — keeping client data on premises, avoiding per-token API costs, and maintaining nFADP/DSG compliance. A practical guide." />
- <meta property="og:title" id="og-title" content="Running Frontier AI Locally: The DS4 Engine and What It Means for Swiss SMEs" />
- <meta property="og:description" id="og-description" content="Swiss SMEs can run powerful AI models locally on their own hardware — keeping client data on premises, avoiding per-token API costs, and maintaining nFADP/DSG compliance. A practical guide." />
- <meta property="og:type" content="article" />
- <meta property="og:url" content="https://strongwinds.ch/blog/posts/ds4-local-ai-engine.html" />
- <link rel="canonical" href="https://strongwinds.ch/blog/posts/ds4-local-ai-engine.html" />
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
- <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg" />
- <link rel="stylesheet" href="../../styles.css?v=26" />
- <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg" />
- <link rel="stylesheet" href="../blog.css?v=10" />
- <script type="application/ld+json">
- {
- "@context": "https://schema.org",
- "@type": "BlogPosting",
- "headline": "Running Frontier AI Locally: The DS4 Engine and What It Means for Swiss SMEs",
- "description": "Swiss SMEs can run powerful AI models locally on their own hardware — keeping client data on premises, avoiding per-token API costs, and maintaining nFADP/DSG compliance. A practical guide.",
- "datePublished": "2026-10-03",
- "dateModified": "2026-10-03",
- "author": {
- "@type": "Person",
- "name": "Christian"
- },
- "publisher": {
- "@type": "Organization",
- "name": "strongwinds.ch",
- "url": "https://strongwinds.ch"
- },
- "mainEntityOfPage": "https://strongwinds.ch/blog/posts/ds4-local-ai-engine.html"
- }
- </script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HHTMBHS0F3"></script>
-<script>
- window.dataLayer = window.dataLayer || [];
- function gtag(){dataLayer.push(arguments);}
- gtag('js', new Date());
-
- gtag('config', 'G-HHTMBHS0F3');
-</script>
-</head>
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58NQ8LPN"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
- <div class="topbar">
- <div class="container topbar-inner">
- <a class="back-home" href="../../">← strongwinds.ch</a><a class="topbar-home" href="../../"><span data-i18n-html="swiss" style="display:inline-flex;align-items:center;gap:6px;white-space:nowrap;"><img src='../../assets/ch-flag.svg' alt='Swiss flag' style='width:18px;height:18px;flex:0 0 auto;'>Made for Swiss self-employed & SMEs</span></a>
- <div class="lang-switch" role="group" aria-label="Language"><button type="button" class="lang-dd-btn" aria-haspopup="true" aria-expanded="false"><span class="lang-dd-current">EN</span><span class="lang-dd-caret">▾</span></button><div class="lang-dd-menu" role="menu"><button type="button" role="menuitem" data-lang="en" class="lang-opt">English <span class="tick">✓</span></button><button type="button" role="menuitem" data-lang="de" class="lang-opt">Deutsch</button><button type="button" role="menuitem" data-lang="fr" class="lang-opt">Français</button><button type="button" role="menuitem" data-lang="it" class="lang-opt">Italiano</button></div></div></div>
-
- </div>
- </div>
-
- <header class="nav">
- <div class="container nav-inner">
- <a class="brand" href="../../" aria-label="strongwinds">
- <span class="brand-glyph" aria-hidden="true"><img src="../../assets/logo-mark.svg" alt=""></span>
- <span class="brand-word"><b>strongwinds</b><strong>.ch</strong></span>
- </a>
- <nav>
- <a href="../../#solutions" data-i18n="nav_solutions">Solutions</a>
- <a href="../../#how" data-i18n="nav_how">How we work</a>
- <a href="../../#about" data-i18n="nav_about">About</a>
- <a href="../" style="color:var(--teal); font-weight:700;" data-i18n="nav_blog">Blog</a>
- </nav>
- <div class="nav-actions">
- <a class="nav-mobile-blog" href="../"><span data-i18n="nav_blog">Blog</span></a>
- <a class="nav-cta" href="../../#contact"><span data-i18n="nav_cta">Book a free 30-min call</span> <span>→</span></a>
- </div>
- </div>
- </header>
-
- <main>
- <article>
- <section class="post-header">
- <div class="container narrow">
- <a href="../" class="text-link" style="color: var(--muted); margin-bottom: 20px; display: inline-block;"><span data-i18n="back">← Back to Blog</span></a>
- <div class="blog-meta" style="margin-bottom: 0;">October 3, 2026</div>
- <h1><span data-i18n="post_title">Running Frontier AI Locally: The DS4 Engine and What It Means for Swiss SMEs</span></h1>
- <div class="chip-row" style="padding-top: 0;">
- <a href="../?tag=sales" data-i18n="tag_sales">Sales</a>
- <a href="../?tag=crm" data-i18n="tag_crm">CRM</a>
- <a href="../?tag=admin" data-i18n="tag_admin">Admin</a>
- </div>
- </div>
- </section>
-
- <section class="post-content">
- <div class="container narrow post-body">
- <div data-i18n-html="post_content">
-<p class="hero-lead" style="margin-top: 0;">Most Swiss businesses assume they need a cloud subscription to use powerful AI — but the real cost is your client data leaving the building. The DS4 engine, built by Redis creator antirez in just one week, changes that: it runs frontier AI models like DeepSeek V4 Flash and GLM 5.2 entirely on your own hardware, with zero per-token costs and everything staying on premises.</p>
-
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Running Frontier AI Locally: The DS4 Engine and What It Means for…</title><meta name="description" content="Swiss SMEs can run powerful AI models locally on their own hardware — keeping client data on premises, avoiding per-token API costs, and maintaining nFADP/DSG…"><meta name="theme-color" content="#6750ce"><link rel="canonical" href="https://strongwinds.ch/blog/posts/ds4-local-ai-engine/"><link rel="alternate" hreflang="en" href="https://strongwinds.ch/blog/posts/ds4-local-ai-engine/"><link rel="alternate" hreflang="de" href="https://strongwinds.ch/de/blog/posts/ds4-local-ai-engine/"><link rel="alternate" hreflang="fr" href="https://strongwinds.ch/fr/blog/posts/ds4-local-ai-engine/"><link rel="alternate" hreflang="it" href="https://strongwinds.ch/it/blog/posts/ds4-local-ai-engine/"><link rel="alternate" hreflang="x-default" href="https://strongwinds.ch/blog/posts/ds4-local-ai-engine/"><meta property="og:type" content="article"><meta property="og:site_name" content="strongwinds.ch"><meta property="og:title" content="Running Frontier AI Locally: The DS4 Engine and What It Means for…"><meta property="og:description" content="Swiss SMEs can run powerful AI models locally on their own hardware — keeping client data on premises, avoiding per-token API costs, and maintaining nFADP/DSG…"><meta property="og:url" content="https://strongwinds.ch/blog/posts/ds4-local-ai-engine/"><meta property="og:locale" content="en_GB"><meta property="og:image" content="https://strongwinds.ch/assets/social-card.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Running Frontier AI Locally: The DS4 Engine and What It Means for…"><meta name="twitter:description" content="Swiss SMEs can run powerful AI models locally on their own hardware — keeping client data on premises, avoiding per-token API costs, and maintaining nFADP/DSG…"><meta name="twitter:image" content="https://strongwinds.ch/assets/social-card.png"><link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64 128x128 256x256"><link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "ProfessionalService", "@id": "https://strongwinds.ch/#business", "name": "strongwinds.ch", "url": "https://strongwinds.ch/", "logo": "https://strongwinds.ch/assets/wordmark.svg", "email": "christian@strongwinds.ch", "telephone": "+41 76 255 82 77", "areaServed": {"@type": "Country", "name": "Switzerland"}, "address": {"@type": "PostalAddress", "addressLocality": "Corralejo", "addressCountry": "ES"}, "founder": {"@id": "https://strongwinds.ch/#christian"}}, {"@type": "Person", "@id": "https://strongwinds.ch/#christian", "name": "Christian Nussbaumer", "url": "https://strongwinds.ch/about/", "image": "https://strongwinds.ch/assets/christian.jpg", "sameAs": ["https://www.linkedin.com/in/nussbi"]}, {"@type": "WebSite", "@id": "https://strongwinds.ch/#website", "url": "https://strongwinds.ch/", "name": "strongwinds.ch"}, {"@type": "BlogPosting", "@id": "https://strongwinds.ch/blog/posts/ds4-local-ai-engine/#page", "url": "https://strongwinds.ch/blog/posts/ds4-local-ai-engine/", "name": "Running Frontier AI Locally: The DS4 Engine and What It Means for…", "description": "Swiss SMEs can run powerful AI models locally on their own hardware — keeping client data on premises, avoiding per-token API costs, and maintaining nFADP/DSG…", "inLanguage": "en", "isPartOf": {"@id": "https://strongwinds.ch/#website"}, "headline": "Running Frontier AI Locally: The DS4 Engine and What It Means for Swiss SMEs", "datePublished": "2026-10-03", "author": {"@id": "https://strongwinds.ch/#christian"}, "publisher": {"@id": "https://strongwinds.ch/#business"}, "mainEntityOfPage": "https://strongwinds.ch/blog/posts/ds4-local-ai-engine/", "image": "https://strongwinds.ch/assets/social-card.png"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://strongwinds.ch/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://strongwinds.ch/blog/"}, {"@type": "ListItem", "position": 3, "name": "Running Frontier AI Locally: The DS4 Engine and What It Means for Swiss SMEs", "item": "https://strongwinds.ch/blog/posts/ds4-local-ai-engine/"}]}]}</script><script defer src="/site.js"></script></head><body><a class="skip-link" href="#main">Skip to content</a><header class="topbar"><div class="topbar-inner"><a class="brand" href="/"><img src="/assets/logo-mark.svg" alt="" width="38" height="38"><span>strongwinds<span class="dot">.ch</span></span></a><nav class="nav" id="main-nav" aria-label="Navigation"><a href="/#solutions">Solutions</a><a href="/ai-agents/">AI agents</a><a href="/about/">About me</a><a href="/blog/">Blog</a><a href="/projects/">Projects</a></nav><button class="nav-toggle" type="button" aria-label="Navigation" aria-expanded="false" aria-controls="main-nav">☰</button><nav class="language-links" aria-label="Language"><a href="/blog/posts/ds4-local-ai-engine/" lang="en" hreflang="en" aria-label="EN — English" aria-current="true">EN</a><a href="/de/blog/posts/ds4-local-ai-engine/" lang="de" hreflang="de" aria-label="DE — Deutsch">DE</a><a href="/fr/blog/posts/ds4-local-ai-engine/" lang="fr" hreflang="fr" aria-label="FR — Français">FR</a><a href="/it/blog/posts/ds4-local-ai-engine/" lang="it" hreflang="it" aria-label="IT — Italiano">IT</a></nav><a class="button header-contact" href="/#contact">Let&#x27;s talk ↗</a></div></header><main id="main">
+<article>
+<section class="post-header">
+<div class="container narrow">
+<a class="text-link" href="/blog/"><span>← Back to Blog</span></a>
+<div class="blog-meta">October 3, 2026</div>
+<h1><span>Running Frontier AI Locally: The DS4 Engine and What It Means for Swiss SMEs</span></h1>
+<div class="chip-row"><a href="/blog/?tag=local_ai">Local AI</a><a href="/blog/?tag=data_protection">Data Protection</a><a href="/blog/?tag=costs">Costs</a></div>
+</div>
+</section>
+<section class="post-content">
+<div class="container narrow post-body">
+<div><p class="hero-lead">Most Swiss businesses assume they need a cloud subscription to use powerful AI — but the real cost is your client data leaving the building. The DS4 engine, built by Redis creator antirez in just one week, changes that: it runs frontier AI models like DeepSeek V4 Flash and GLM 5.2 entirely on your own hardware, with zero per-token costs and everything staying on premises.</p>
 <h2>What DS4 actually is</h2>
 <p>DS4 (also called DwarfStar, or ds4.c) is not a general framework — it's a single-purpose engine antirez wrote for one model family: DeepSeek V4 Flash/PRO, V4.1 Flash, GLM 5.2/5.3, and Qwen 3.8 Flash Next. It doesn't reuse llama.cpp's code but borrows its GGUF quantization ideas, under MIT license.</p>
 <p>The trick is an asymmetric 2/8-bit quant recipe: routed experts, which make up most of the 284B parameters, get squashed to IQ2_XXS/Q4_K since each expert only ever handles a fraction of tokens — while attention, shared experts and output layers stay at sharper Q8_0. This means you can run a 284B‑parameter model on a Mac with 128 GB RAM, or on a GPU box with 256 GB+.</p>
-
 <h2>Why it matters for a small Swiss business</h2>
 <p>Two things usually stop a small office from using AI on its data: cost and data protection. DS4 is free and MIT‑licensed — you buy no subscription, pay no per‑token fee. The model stays on your Mac, your NAS, or your small server. Under Swiss data protection law, that is a far easier story to tell clients than sending their files to a server abroad. For doctors, notaries, fiduciaries and anyone handling sensitive documents, that is often the deciding point.</p>
-
 <h2>Hardware you need</h2>
 <ul>
 <li>Best: Apple Silicon Mac with 128 GB RAM (Q4 quant, ~153 GB)</li>
@@ -120,78 +23,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li>GPU route: NVIDIA DGX Spark/Ada-Lovelace (CUDA) or AMD Strix Halo (ROCm) for even lighter loads</li>
 </ul>
 <p>If you don't have that RAM, the model won't crash — it just won't load the full 284B. You can still run smaller subsets.</p>
-
 <h2>A sensible way to try it</h2>
 <p>Clone the repo, build for your backend, then pull the weights from Hugging Face. Start by feeding just one document folder and asking simple questions. Use it for a week and watch how often it saves you a search through old emails and folders. Only then decide whether to roll it out more widely. That is the strongwinds way: no hype, no big bang. One real problem, one honest test, and a decision based on what you actually saw.</p>
 </div>
 </div>
- <div class="post-author">
- <div class="post-author-avatar"><a href="https://facturio.ch" target="_blank" rel="noopener" aria-label="facturio.ch"><img src="../../assets/christian-avatar-v2.jpg" alt="Christian"></a></div>
- <div class="post-author-info">
- <b><a href="https://facturio.ch" target="_blank" rel="noopener" style="color: inherit;">Christian</a></b>
- <span data-i18n="author_tag">Founder, strongwinds.ch · Practical AI for Swiss self-employed & SMEs</span>
- </div>
- </div>
- </div>
- </section>
- 
- <aside class="related-posts">
- <div class="container narrow">
- <h2 data-i18n="related_heading">Related posts</h2>
- <ul class="related-list">
-<li><a href="local-ai-on-your-laptop.html" data-i18n="rel1_title">Local AI on Your Laptop: A Beginner's Guide for Swiss Practices</a></li>
-<li><a href="what-ai-actually-costs.html" data-i18n="rel2_title">What AI Actually Costs: A Transparent Guide for Swiss Businesses</a></li>
-<li><a href="one-page-ai-policy.html" data-i18n="rel3_title">Your One-Page AI Policy: Clear Rules for Notaries, Fiduciaries and Doctors</a></li>
+<div class="post-author">
+<div class="post-author-avatar"><a aria-label="facturio.ch" href="https://facturio.ch" rel="noopener noreferrer" target="_blank"><img alt="Christian" decoding="async" height="640" loading="lazy" src="/assets/christian-avatar-v2.jpg" width="640"/></a></div>
+<div class="post-author-info">
+<b><a href="https://facturio.ch" rel="noopener noreferrer" target="_blank">Christian</a></b>
+<span>Founder, strongwinds.ch · Practical AI for Swiss self-employed &amp; SMEs</span>
+</div>
+</div>
+
+</section>
+<aside class="related-posts">
+<div class="container narrow">
+<h2>Related posts</h2>
+<ul class="related-list">
+<li><a href="/blog/posts/local-ai-on-your-laptop/">Local AI on Your Laptop: A Beginner's Guide for Swiss Practices</a></li>
+<li><a href="/blog/posts/what-ai-actually-costs/">What AI Actually Costs: A Transparent Guide for Swiss Businesses</a></li>
+<li><a href="/blog/posts/one-page-ai-policy/">Your One-Page AI Policy: Clear Rules for Notaries, Fiduciaries and Doctors</a></li>
 </ul>
- </div>
- </aside>
-  </article>
- </main>
-
- <footer>
- <div class="container footer-inner">
- <a class="footer-brand" href="../../">
- <span class="brand-glyph" aria-hidden="true"><img src="../../assets/logo-mark.svg" alt=""></span>
- <b class="footer-word">strongwinds<span>.</span>ch</b>
- </a>
- <a class="footer-wa" href="https://wa.me/41762558277" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 448 512" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg><span>WhatsApp</span></a><a class="footer-wa" href="https://www.linkedin.com/in/nussbi" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg><span>LinkedIn</span></a><span class="footer-copy">© 2026 · <img src="../../assets/ch-flag.svg" alt="" style="width:13px;height:13px;border-radius:2px;vertical-align:-2px;display:inline-block;"></span>
- </div>
- </footer>
-
-<script>
-const translations = {"en": {"swiss": "<img src='../../assets/ch-flag.svg' alt='Swiss flag' style='width:18px;height:18px;flex:0 0 auto;'>Made for Swiss self-employed & SMEs", "nav_solutions": "Solutions", "nav_how": "How it works", "nav_about": "About", "nav_blog": "Blog", "nav_cta": "Book a free 30-min call", "back": "← Back to Blog", "footer_tag": "Practical AI for Swiss SMEs.", "footer_copy": "© 2026 strongwinds.ch · Switzerland", "author_tag": "Founder, strongwinds.ch · Practical AI for Swiss self-employed & SMEs", "post_title": "Running Frontier AI Locally: The DS4 Engine and What It Means for Swiss SMEs", "meta_description": "Swiss SMEs can run powerful AI models locally on their own hardware — keeping client data on premises, avoiding per-token API costs, and maintaining nFADP/DSG compliance. A practical guide.", "og_title": "Running Frontier AI Locally: The DS4 Engine and What It Means for Swiss SMEs", "og_description": "Swiss SMEs can run powerful AI models locally on their own hardware — keeping client data on premises, avoiding per-token API costs, and maintaining nFADP/DSG compliance. A practical guide.", "post_content": "<p class=\"hero-lead\" style=\"margin-top: 0;\">Most Swiss businesses assume they need a cloud subscription to use powerful AI — but the real cost is your client data leaving the building. The DS4 engine, built by Redis creator antirez in just one week, changes that: it runs frontier AI models like DeepSeek V4 Flash and GLM 5.2 entirely on your own hardware, with zero per-token costs and everything staying on premises.</p>\n\n<h2>What DS4 actually is</h2>\n<p>DS4 (also called DwarfStar, or ds4.c) is not a general framework — it's a single-purpose engine antirez wrote for one model family: DeepSeek V4 Flash/PRO, V4.1 Flash, GLM 5.2/5.3, and Qwen 3.8 Flash Next. It doesn't reuse llama.cpp's code but borrows its GGUF quantization ideas, under MIT license.</p>\n<p>The trick is an asymmetric 2/8-bit quant recipe: routed experts, which make up most of the 284B parameters, get squashed to IQ2_XXS/Q4_K since each expert only ever handles a fraction of tokens — while attention, shared experts and output layers stay at sharper Q8_0. This means you can run a 284B‑parameter model on a Mac with 128 GB RAM, or on a GPU box with 256 GB+.</p>\n\n<h2>Why it matters for a small Swiss business</h2>\n<p>Two things usually stop a small office from using AI on its data: cost and data protection. DS4 is free and MIT‑licensed — you buy no subscription, pay no per‑token fee. The model stays on your Mac, your NAS, or your small server. Under Swiss data protection law, that is a far easier story to tell clients than sending their files to a server abroad. For doctors, notaries, fiduciaries and anyone handling sensitive documents, that is often the deciding point.</p>\n\n<h2>Hardware you need</h2>\n<ul>\n<li>Best: Apple Silicon Mac with 128 GB RAM (Q4 quant, ~153 GB)</li>\n<li>Minimum: 96 GB RAM with the lightest quant (IQ2_XXS, ~81 GB)</li>\n<li>GPU route: NVIDIA DGX Spark/Ada-Lovelace (CUDA) or AMD Strix Halo (ROCm) for even lighter loads</li>\n</ul>\n<p>If you don't have that RAM, the model won't crash — it just won't load the full 284B. You can still run smaller subsets.</p>\n\n<h2>A sensible way to try it</h2>\n<p>Clone the repo, build for your backend, then pull the weights from Hugging Face. Start by feeding just one document folder and asking simple questions. Use it for a week and watch how often it saves you a search through old emails and folders. Only then decide whether to roll it out more widely. That is the strongwinds way: no hype, no big bang. One real problem, one honest test, and a decision based on what you actually saw.</p>\n</div>", "related_heading": "Related posts", "facturio_crosslink": "<p><strong>Related on facturio.ch</strong> &mdash; <a href='https://facturio.ch/blog/how-to-write-a-swiss-invoice/'>How to Write a Swiss Invoice</a>: Swiss invoicing &amp; QR-bills, explained step by step.</p>", "tag_local_ai": "Local AI", "tag_data_protection": "Data Protection", "tag_costs": "Costs", "rel1_title": "Local AI on Your Laptop: A Beginner's Guide for Swiss Practices", "rel2_title": "What AI Actually Costs: A Transparent Guide for Swiss Businesses", "rel3_title": "Your One-Page AI Policy: Clear Rules for Notaries, Fiduciaries and Doctors"}, "de": {"swiss": "<img src='../../assets/ch-flag.svg' alt='Swiss flag' style='width:18px;height:18px;flex:0 0 auto;'>Für Selbständige und Schweizer KMU", "nav_solutions": "Lösungen", "nav_how": "So funktioniert's", "nav_about": "Über mich", "nav_blog": "Blog", "nav_cta": "Kostenloses 30-Minuten-Gespräch buchen", "back": "← Zurück zum Blog", "footer_tag": "Pragmatische KI für Schweizer Selbständige und KMU.", "footer_copy": "© 2026 strongwinds.ch · Schweiz", "author_tag": "Gründer, strongwinds.ch · Pragmatische KI für Schweizer Selbständige und KMU", "post_title": "Frontier KI lokal ausführen: Der DS4-Motor und was er für Schweizer KMU bedeutet", "meta_description": "Schweizer KMU können leistungsfähige KI-Modelle lokal auf ihrer eigenen Hardware ausführen — clientdaten bleiben auf dem Firmensitz, es fallen keine pro-Token-API-Kosten an und die nFADP/DSG-Konformität wird gewahrt. Eine praxisnahe Anleitung.", "og_title": "Frontier KI lokal ausführen: Der DS4-Motor und was er für Schweizer KMU bedeutet", "og_description": "Schweizer KMU können leistungsfähige KI-Modelle lokal auf ihrer eigenen Hardware ausführen — clientdaten bleiben auf dem Firmensitz, es fallen keine pro-Token-API-Kosten an und die nFADP/DSG-Konformität wird gewahrt. Eine praxisnahe Anleitung.", "post_content": "<p class=\"hero-lead\" style=\"margin-top: 0;\">Die meisten Schweizer Unternehmen gehen davon aus, dass sie ein Cloud-Abo benötigen, um leistungsfähige KI zu nutzen — aber der echte Kostenfaktor ist, dass Kundendaten das Gebäude verlassen. Der DS4-Motor, den Redis-Ersteller antirez in nur einer Woche baute, ändert das: Er führt Frontier-KI-Modelle wie DeepSeek V4 Flash und GLM 5.2 vollständig auf Ihrer eigenen Hardware aus, mit null pro-Token-Kosten und allem, was auf dem Firmensitz bleibt.</p>\n\n<h2>Was DS4 eigentlich ist</h2>\n<p>DS4 (auch DwarfStar oder ds4.c genannt) ist kein generelles Framework — es ist eine einzelne Engine, die antirez für ein Modell-Familie schrieb: DeepSeek V4 Flash/PRO, V4.1 Flash, GLM 5.2/5.3 und Qwen 3.8 Flash Next. Er verwendet keinen llama.cpp-Code, sondern leiht sich dessen GGUF-Quantisierungs-Ideen unter MIT-Lizenz.</p>\n<p>Der Trick ist ein asymmetrischer 2/8-Bit-Quantisierungs-Plan: Route-Experten, die den größten Teil der 284B-Parameter ausmachen, werden auf IQ2_XXS/Q4_K zusammengepresst, da jeder Experte nur einen Bruchteil der Tokens verarbeitet — während Aufmerksamkeit, gemeinsame Experten und Ausgabeebenen bei schärferem Q8_0 verbleiben.</p>\n<p>Damit lässt sich ein Modell mit 284 Milliarden Parametern auf einem Mac mit 128 GB RAM ausführen, oder auf einer GPU‑Box mit 256 GB+.</p>\n\n<h2>Warum das für ein kleines Schweizer Unternehmen zählt</h2>\n<p>Zwei Dinge halten kleine Büros sonst davon ab, KI auf ihre Daten loszulassen: Kosten und Datenschutz. DS4 ist frei und MIT-lizenziert — es gibt kein Abo, keine pro-Token-Gebühr. Das Modell bleibt auf Ihrem Mac, Ihrer NAS oder Ihrem kleinen Server. Nach Schweizer Datenschutzgesetz ist das eine weit einfachere Geschichte, die Sie Kunden erzählen können, als deren Dateien an einen Server im Ausland zu schicken. Für Ärzte, Notare, Treuhänder und alle, die mit sensiblen Dokumenten arbeiten, ist das oft der entscheidende Punkt.</p>\n\n<h2>Hardware, die Sie brauchen</h2>\n<ul>\n<li>Bestes: Apple‑Silicon‑Mac mit 128 GB RAM (Q4‑Quant, ca. 153 GB)</li>\n<li>Minimum: 96 GB RAM mit dem leichtesten Quant (IQ2_XXS, ca. 81 GB)</li>\n<li>GPU‑Route: NVIDIA DGX Spark/Ada‑Lovelace (CUDA) oder AMD Strix Halo (ROCm) für noch leichtere Lasten</li>\n</ul>\n\n<h2>Ein vernünftiger Weg, es auszuprobieren</h2>\n<p>Klonen Sie das Repository, bauen Sie für Ihren Backend-Typ und ziehen Sie die Gewichte von Hugging Face. Starten Sie, indem Sie nur einen Dokument-Ordner füttern und einfache Fragen stellen. Nutzen Sie es eine Woche lang und beobachten Sie, wie oft es Ihnen die Suche in alten E-Mails und Ordnern erspart. Erst danach entscheiden Sie, ob Sie es breiter einsetzen. So arbeitet strongwinds: kein Hype, kein grosser Knall. Ein echtes Problem, ein ehrlicher Test und eine Entscheidung auf Basis dessen, was Sie tatsächlich gesehen haben.</p>", "related_heading": "Weiterführend", "facturio_crosslink": "<p><strong>Verwandtes auf facturio.ch</strong> &mdash; <a href='https://facturio.ch/blog/how-to-write-a-swiss-invoice/'>How to Write a Swiss Invoice</a>: Schweizer Rechnungen &amp; QR-Rechnungen, Schritt f&uuml;r Schritt erkl&auml;rt.</p>", "tag_local_ai": "Lokale KI", "tag_data_protection": "Datenschutz", "tag_costs": "Kosten", "rel1_title": "Lokale KI auf Ihrem Laptop: Eine Einführung für Schweizer Praxen", "rel2_title": "Was KI wirklich kostet: Eine transparente Anleitung für Schweizer Unternehmen", "rel3_title": "Ihre einseitige KI-Politik: Klare Regeln für Notare, Treuhänder und Ärzte"}, "fr": {"swiss": "<img src='../../assets/ch-flag.svg' alt='Swiss flag' style='width:18px;height:18px;flex:0 0 auto;'>Fait pour les indépendants et les PME suisses", "nav_solutions": "Solutions", "nav_how": "Comment ça marche", "nav_about": "À propos", "nav_blog": "Blog", "nav_cta": "Réserver un appel gratuit de 30 minutes", "back": "← Retour au blog", "footer_tag": "IA pragmatique pour les indépendants et les PME suisses.", "footer_copy": "© 2026 strongwinds.ch · Suisse", "author_tag": "Fondateur, strongwinds.ch · IA pragmatique pour les indépendants et les PME suisses", "post_title": "Exécution d'IA de pointe en local : le moteur DS4 et ce qu'il signifie pour les PME suisses", "meta_description": "Les PME suisses peuvent faire tourner des modèles d'IA puissants en local sur leur propre matériel — les données clients restent sur site, pas de coûts par token API et conformité nFADP/DSG assurée. Un guide pratique.", "og_title": "Exécution d'IA de pointe en local : le moteur DS4 et ce qu'il signifie pour les PME suisses", "og_description": "Les PME suisses peuvent faire tourner des modèles d'IA puissants en local sur leur propre matériel — les données clients restent sur site, pas de coûts par token API et conformité nFADP/DSG assurée. Un guide pratique.", "post_content": "<p class=\"hero-lead\" style=\"margin-top: 0;\">La plupart des entreprises suisses supposent qu'elles ont besoin d'un abonnement cloud pour utiliser une IA puissante — mais le vrai coût, c'est le départ des données clients du bâtiment. Le moteur DS4, créé par antirez en une seule semaine, change la donne : il fait tourner des modèles d'IA de pointe comme DeepSeek V4 Flash et GLM 5.2 entièrement sur votre propre matériel, sans aucun coût par token et avec tout qui reste sur place.</p>\n\n<h2>Qu'est-ce que DS4 exactement ?</h2>\n<p>DS4 (aussi appelé DwarfStar, ou ds4.c) n'est pas un framework général — c'est un moteur unique antirez a écrit pour une famille de modèles : DeepSeek V4 Flash/PRO, V4.1 Flash, GLM 5.2/5.3 et Qwen 3.8 Flash Next. Il n'utilise pas le code de llama.cpp mais emprunte ses idées de quantification GGUF sous licence MIT.</p>\n<p>L'astuce consiste en une recette de quantification asymétrique 2/8 bits : les experts routés, qui constituent la plupart des 284B de paramètres, sont écrasés en IQ2_XXS/Q4_K puisqu'ils ne traitent chaque fois qu'une fraction de tokens — tandis que l'attention, les experts partagés et les couches de sortie restent à Q8_0 plus aigu.</p>\n<p>Cela permet de faire tourner un modèle de 284 milliards de paramètres sur un Mac avec 128 Go de RAM, ou sur une boîte GPU avec 256 Go+. </p>\n\n<h2>Pourquoi cela compte pour une petite entreprise suisse</h2>\n<p>Deux choses habituellement empêchent une petite entreprise d'utiliser l'IA sur ses données : le coût et la protection des données. DS4 est gratuit et sous licence MIT — pas d'abonnement, pas de frais par token. Le modèle reste sur votre Mac, votre NAS ou votre petit serveur. Dans le droit suisse de protection des données, c'est une bien plus facile histoire à raconter aux clients que d'envoyer leurs fichiers sur un serveur à l'étranger. Pour les médecins, les notaires, les fiduciaires et tous ceux qui manipulent des documents sensibles, c'est souvent le point décisif.</p>\n\n<h2>Matériel nécessaire</h2>\n<ul>\n<li>Mieux : Mac Apple Silicon avec 128 Go de RAM (quant Q4, ~153 Go)</li>\n<li>Minimum : 96 Go de RAM avec le quant léger (IQ2_XXS, ~81 Go)</li>\n<li>Route GPU : NVIDIA DGX Spark/Ada-Lovelace (CUDA) ou AMD Strix Halo (ROCm) pour des charges encore plus légères</li>\n</ul>\n\n<h2>Une façon raisonnable de l'essayer</h2>\n<p>Clonez le dépôt, construisez-le pour votre backend, puis téléchargez les poids depuis Hugging Face. Commencez par nourrir juste un dossier de documents et poser des questions simples. Utilisez-le pendant une semaine et observez combien de fois vous évitez de fouiller dans de vieux e-mails et dossiers. Décidez ensuite seulement de l'étendre. C'est la manière strongwinds : pas de battage, pas de grand coup. Un vrai problème, un test honnête et une décision fondée sur ce que vous avez réellement constaté.</p>", "related_heading": "À lire aussi", "facturio_crosslink": "<p><strong>&Agrave; lire sur facturio.ch</strong> &mdash; <a href='https://facturio.ch/blog/how-to-write-a-swiss-invoice/'>How to Write a Swiss Invoice</a> : facturation suisse et QR-factures, expliqu&eacute;es pas &agrave; pas.</p>", "tag_local_ai": "IA locale", "tag_data_protection": "Protection des données", "tag_costs": "Coûts", "rel1_title": "IA locale sur votre ordinateur : un guide pour les cabinets suisses", "rel2_title": "Ce que coûte réellement l'IA : un guide transparent pour les entreprises suisses", "rel3_title": "Votre politique IA d'une page : Règles claires pour les notaires, fiduciaires et médecins"}, "it": {"nav_solutions": "Soluzioni", "nav_how": "Come funziona", "nav_about": "Chi sono", "nav_blog": "Blog", "nav_cta": "Prenota una chiamata gratuita di 30 min", "back": "← Torna al blog", "footer_tag": "IA pratica per le PMI svizzere.", "footer_copy": "© 2026 strongwinds.ch · Svizzera", "author_tag": "Fondatore, strongwinds.ch · IA pratica per indipendenti e PMI svizzeri", "related_heading": "Articoli correlati", "swiss": "<img src='../../assets/ch-flag.svg' alt='Swiss flag' style='width:18px;height:18px;flex:0 0 auto;'>Fatto per indipendenti e PMI svizzeri", "post_title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM", "meta_description": "Un flusso di lavoro pratico con l'IA per acquisire contatti, riassumere le conversazioni e inviare follow-up in giornata senza comprare un CRM pesante.", "og_title": "Come i solopreneur svizzeri possono trasformare le richieste via WhatsApp ed email in un semplice CRM", "og_description": "Un flusso di lavoro pratico con l'IA per acquisire contatti, riassumere le conversazioni e inviare follow-up in giornata senza comprare un CRM pesante.", "tag_sales": "Vendite", "tag_crm": "CRM", "tag_admin": "Amministrazione", "rel1_title": "Dati clienti ordinati, meno errori: una routine con l'IA per la tua rubrica", "rel2_title": "Costruire una base di conoscenza dalle vecchie email", "rel3_title": "Restare nella mente dei clienti: una routine con l'IA per la tua newsletter mensile", "facturio_crosslink": "<p><strong>Correlato su facturio.ch</strong> &mdash; <a href='https://facturio.ch/blog/invoice-archiving-requirements-switzerland/'>Archiviazione delle fatture in Svizzera: per quanto tempo devi conservarle?</a>: fatturazione svizzera e QR-fatture, spiegate passo dopo passo.</p>", "post_content": "\n <p class=\"hero-lead\" style=\"margin-top: 0;\">Un tipico solopreneur svizzero riceve richieste da ogni parte: un modulo del sito, un'email, un messaggio WhatsApp, magari anche un messaggio vocale dopo un incontro con un cliente. Il problema non è la domanda. Il problema è che il passo successivo vive spesso nella tua testa invece che in un sistema.</p>\n <p>È così che le opportunità sfuggono. Un messaggio riceve risposta immediata, un altro resta sepolto nella casella, e un potenziale cliente si sente rispondere due giorni troppo tardi. Non ti serve necessariamente un CRM pesante per risolvere questo. Spesso ti basta un semplice flusso di acquisizione e un po' di supporto dell'IA.</p>\n\n <h2>Il problema dei contatti disordinati</h2>\n <p>Quando le richieste arrivano su tre o quattro canali, gli stessi piccoli problemi si ripetono ogni settimana:</p>\n <ul>\n <li><strong>Nessuna visione d'insieme:</strong> non puoi vedere tutte le conversazioni aperte in un unico posto.</li>\n <li><strong>Follow-up lento:</strong> sai cosa rispondere, ma scrivere ogni risposta richiede più tempo del dovuto.</li>\n <li><strong>Passi successivi persi:</strong> un potenziale cliente ha chiesto un prezzo, una chiamata o un documento — e il compito scompare sotto il lavoro quotidiano.</li>\n </ul>\n\n <h2>Un CRM semplice senza comprare un CRM</h2>\n <p>Inizia con una struttura leggera. Un foglio di calcolo, una tabella Notion o anche un semplice file di testo possono bastare all'inizio. L'obiettivo è acquisire ogni nuova richiesta in un unico posto con cinque campi: nome, fonte, riassunto, passo successivo e data di follow-up.</p>\n <p>Poi crea tre fasi chiare: <em>Nuovo</em>, <em>In attesa</em> e <em>Chiuso</em>. Già questo da solo rimuove una sorprendente quantità di carico mentale.</p>\n\n <h3>Dove l'IA aiuta davvero</h3>\n <p>L'IA non deve sostituire la gestione delle relazioni con i clienti. Deve solo ridurre il lavoro ripetitivo che ci sta intorno.</p>\n <ul>\n <li><strong>Riassumi le richieste:</strong> trasforma una lunga conversazione WhatsApp o uno scambio di email in un briefing di tre righe.</li>\n <li><strong>Prepara le risposte:</strong> chiedi una risposta cortese in giornata, nel tuo tono, con un passo successivo chiaro.</li>\n <li><strong>Estrai le azioni:</strong> tira fuori scadenze, documenti promessi, date di richiamata o richieste di preventivo.</li>\n </ul>\n\n <blockquote>«Per la maggior parte delle piccole imprese, la vera vittoria non è uno strumento più complicato. È un'abitudine quotidiana più pulita.»</blockquote>\n\n <h2>Una routine quotidiana di 15 minuti</h2>\n <p>Un flusso di lavoro pratico si presenta così:</p>\n <ol>\n <li>Sposta ogni nuova richiesta nella tua lista di acquisizione prima di pranzo.</li>\n <li>Usa l'IA per generare un breve riassunto e una prima bozza di risposta.</li>\n <li>Rivedi tu stesso la bozza, regola il tono e inviala.</li>\n <li>Annota l'azione successiva e la data in cui vuoi fare il follow-up.</li>\n </ol>\n <p>In pratica, questo significa meno contatti dimenticati e tempi di risposta molto più rapidi senza trasformare la tua attività in un progetto software aziendale.</p>\n\n <h2>Regole di sicurezza importanti</h2>\n <p>Se lavori con dati sensibili — ad esempio in ambito medico, legale o finanziario — non incollare dettagli confidenziali negli strumenti consumer pubblici senza pensarci. Rimuovi prima i dati identificativi oppure usa una configurazione approvata. Anche in lavori meno regolamentati, il messaggio finale dovrebbe sempre essere rivisto da una persona prima di uscire.</p>\n <p>L'obiettivo è semplice: meno conversazioni perse, follow-up più chiari e un piccolo sistema che continuerai davvero a usare anche il mese prossimo.</p>\n "}};
-function detectLanguage(){
- const urlParams = new URLSearchParams(window.location.search);
- const urlLang = urlParams.get('lang');
- if (urlLang === 'de' || urlLang === 'en' || urlLang === 'fr' || urlLang === 'it') return urlLang;
- return (navigator.language || 'en').toLowerCase().startsWith('de') ? 'de': (navigator.language || 'en').toLowerCase().startsWith('fr') ? 'fr': (navigator.language || 'en').toLowerCase().startsWith('it') ? 'it': 'en';
-}
-
-function applyLanguage(lang){
- const dict = translations[lang];
- document.documentElement.lang = lang;
- document.title = dict.post_title;
- document.getElementById('meta-description').setAttribute('content', dict.meta_description);
- document.getElementById('og-title').setAttribute('content', dict.og_title);
- document.getElementById('og-description').setAttribute('content', dict.og_description);
- document.querySelectorAll('[data-i18n]').forEach(el => {
- const key = el.dataset.i18n;
- if (dict[key] !== undefined) el.textContent = dict[key];
- });
- document.querySelectorAll('[data-i18n-html]').forEach(el => {
- const key = el.dataset.i18nHtml;
- if (dict[key] !== undefined) el.innerHTML = dict[key];
- });
- document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.lang === lang));
- const sel=document.querySelector(".lang-select");if(sel)sel.value=lang;
-const ddCur=document.querySelector(".lang-dd-current");if(ddCur){const b=document.querySelector('.lang-btn[data-lang="'+lang+'"]');if(b)ddCur.innerHTML=b.innerHTML;}const ddM=document.querySelector(".lang-dd-menu");if(ddM){ddM.querySelectorAll("[data-lang]").forEach(b=>{const act=b.dataset.lang===lang;let t=b.querySelector(".tick");if(act&&!t){const s=document.createElement("span");s.className="tick";s.textContent="✓";b.appendChild(s);}else if(!act&&t){t.remove();}});}
-}
-
-document.querySelectorAll('.lang-btn').forEach(btn => btn.addEventListener('click', () => applyLanguage(btn.dataset.lang)));
-const lsel=document.querySelector(".lang-select");if(lsel)lsel.addEventListener("change",e=>applyLanguage(e.target.value));
-applyLanguage(detectLanguage());
-
-</script>
-<script>(function(){var btn=document.querySelector(".lang-dd-btn"),menu=document.querySelector(".lang-dd-menu");if(!btn||!menu||btn.__dd2)return;btn.__dd2=true;function close(){menu.classList.remove("open");btn.setAttribute("aria-expanded","false");}btn.addEventListener("click",function(e){e.stopPropagation();var o=menu.classList.toggle("open");btn.setAttribute("aria-expanded",o?"true":"false");});document.addEventListener("click",function(e){if(!menu.parentElement.contains(e.target))close();});menu.addEventListener("click",function(e){var b=e.target.closest("[data-lang]");if(!b)return;close();var u=b.getAttribute("data-href");if(u){window.location.href=u;return;}if(typeof applyLanguage==="function")applyLanguage(b.dataset.lang);var cur=btn.querySelector(".lang-dd-current");if(cur)cur.textContent=b.dataset.lang.toUpperCase();});var l=(document.documentElement.lang||"en").slice(0,2);if(["en","de","fr","it"].indexOf(l)<0)l="en";var cur=btn.querySelector(".lang-dd-current");if(cur)cur.textContent=l.toUpperCase();var act=menu.querySelector('[data-lang="'+l+'"]');if(act&&!act.querySelector(".tick")){var s=document.createElement("span");s.className="tick";s.textContent="✓";act.appendChild(s);}})();</script>
-</body>
-</html>
+</div>
+</aside>
+</article>
+</main><footer class="site-footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="/"><img src="/assets/logo-mark.svg" alt="" width="38" height="38"><span>strongwinds<span class="dot">.ch</span></span></a><p>AI agents for Swiss businesses.<br>Based in Fuerteventura. Working with Swiss businesses.</p></div><div><h3>Navigation</h3><nav><a href="/#solutions">Solutions</a><a href="/ai-agents/">AI agents</a><a href="/about/">About me</a><a href="/blog/">Blog</a><a href="/projects/">Projects</a></nav></div><div><h3>Get in touch</h3><nav><a href="mailto:christian@strongwinds.ch">Email</a><a href="https://wa.me/41762558277">WhatsApp</a><a href="https://www.linkedin.com/in/nussbi">LinkedIn</a></nav></div><div><h3>Privacy</h3><nav><a href="/privacy/">Privacy</a><button type="button" data-cookie-settings>Cookie settings</button></nav></div></div><div class="footer-bottom"><span>© 2026 strongwinds.ch · Christian Nussbaumer</span><span>OpenClaw · Hermes Agent · AI automation</span></div></div></footer><aside id="cookie-panel" class="cookie-panel" hidden aria-label="Cookie settings"><p>Optional analytics stay off unless you agree. They help me understand how the website is used. <a href="/privacy/">Privacy</a></p><div class="actions"><button class="button secondary" type="button" data-consent="no">No thanks</button><button class="button" type="button" data-consent="yes">Allow analytics</button></div></aside></body></html>

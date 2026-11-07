@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://strongwinds.ch/sitemap.xml
